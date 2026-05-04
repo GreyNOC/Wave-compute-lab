@@ -1,0 +1,8 @@
+stress_profile,best_waveform,best_modulation,best_threshold_snr_db,candidate_count,not_reached_count,mean_average_ber
+attenuation,sine,psk,-12.0,7,1,0.060267857142857144
+baseline_awgn,chirp,psk,-12.0,7,1,0.05755739795918367
+frequency_drift,chirp,fsk,not_reached,7,7,0.376514668367347
+multipath_echo,sine,psk,-8.0,7,1,0.06409438775510204
+narrowband_interference,chirp,psk,-8.0,7,1,0.059417517006802714
+phase_jitter,chirp,psk,-12.0,7,1,0.06087903911564625
+timing_offset,square,fsk,not_reached,7,7,0.6703071853741497

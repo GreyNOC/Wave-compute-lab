@@ -5,37 +5,13 @@
   "fsk_delta": 220.0,
   "duration_padding_bits": 0,
   "snr_db_values": [
-    -30.0,
-    -28.0,
-    -26.0,
-    -24.0,
-    -22.0,
-    -20.0,
-    -18.0,
     -16.0,
-    -14.0,
     -12.0,
-    -10.0,
     -8.0,
-    -6.0,
     -4.0,
-    -2.0,
     0.0,
-    2.0,
     4.0,
-    6.0,
-    8.0,
-    10.0,
-    12.0,
-    14.0,
-    16.0,
-    18.0,
-    20.0,
-    22.0,
-    24.0,
-    26.0,
-    28.0,
-    30.0
+    8.0
   ],
   "seed": 42,
   "message": "GREYNOC WAVE TEST",
@@ -53,7 +29,117 @@
     "fsk",
     "psk"
   ],
-  "trials_per_snr": 3,
+  "candidates": [
+    {
+      "waveform": "chirp",
+      "modulation": "psk"
+    },
+    {
+      "waveform": "triangle",
+      "modulation": "psk"
+    },
+    {
+      "waveform": "square",
+      "modulation": "psk"
+    },
+    {
+      "waveform": "sine",
+      "modulation": "psk"
+    },
+    {
+      "waveform": "chirp",
+      "modulation": "fsk"
+    },
+    {
+      "waveform": "square",
+      "modulation": "fsk"
+    },
+    {
+      "waveform": "pulse",
+      "modulation": "psk"
+    }
+  ],
+  "stress_profiles": [
+    {
+      "name": "baseline_awgn",
+      "description": "AWGN only; validates the Simulation 002 ranking with random payloads.",
+      "attenuation": 1.0,
+      "frequency_drift_ppm": 0.0,
+      "phase_jitter_std": 0.0,
+      "echo_delay_ms": 0.0,
+      "echo_gain": 0.0,
+      "narrowband_interference": 0.0,
+      "timing_offset_samples": 0
+    },
+    {
+      "name": "attenuation",
+      "description": "Signal amplitude reduced before decoding.",
+      "attenuation": 0.45,
+      "frequency_drift_ppm": 0.0,
+      "phase_jitter_std": 0.0,
+      "echo_delay_ms": 0.0,
+      "echo_gain": 0.0,
+      "narrowband_interference": 0.0,
+      "timing_offset_samples": 0
+    },
+    {
+      "name": "frequency_drift",
+      "description": "Small sample-time compression/expansion to mimic oscillator drift.",
+      "attenuation": 1.0,
+      "frequency_drift_ppm": 450.0,
+      "phase_jitter_std": 0.0,
+      "echo_delay_ms": 0.0,
+      "echo_gain": 0.0,
+      "narrowband_interference": 0.0,
+      "timing_offset_samples": 0
+    },
+    {
+      "name": "phase_jitter",
+      "description": "Random sample-level phase/timing jitter.",
+      "attenuation": 1.0,
+      "frequency_drift_ppm": 0.0,
+      "phase_jitter_std": 0.2,
+      "echo_delay_ms": 0.0,
+      "echo_gain": 0.0,
+      "narrowband_interference": 0.0,
+      "timing_offset_samples": 0
+    },
+    {
+      "name": "multipath_echo",
+      "description": "Delayed lower-energy copy of the signal added to itself.",
+      "attenuation": 1.0,
+      "frequency_drift_ppm": 0.0,
+      "phase_jitter_std": 0.0,
+      "echo_delay_ms": 1.5,
+      "echo_gain": 0.35,
+      "narrowband_interference": 0.0,
+      "timing_offset_samples": 0
+    },
+    {
+      "name": "narrowband_interference",
+      "description": "A nearby sinusoidal interferer is injected.",
+      "attenuation": 1.0,
+      "frequency_drift_ppm": 0.0,
+      "phase_jitter_std": 0.0,
+      "echo_delay_ms": 0.0,
+      "echo_gain": 0.0,
+      "narrowband_interference": 0.35,
+      "timing_offset_samples": 0
+    },
+    {
+      "name": "timing_offset",
+      "description": "Receiver starts a few samples late.",
+      "attenuation": 1.0,
+      "frequency_drift_ppm": 0.0,
+      "phase_jitter_std": 0.0,
+      "echo_delay_ms": 0.0,
+      "echo_gain": 0.0,
+      "narrowband_interference": 0.0,
+      "timing_offset_samples": 3
+    }
+  ],
+  "trials_per_snr": 6,
+  "random_payload_length": 16,
   "usable_ber_threshold": 0.01,
-  "warning_ber_threshold": 0.05
+  "reliability_threshold": 0.8
 }

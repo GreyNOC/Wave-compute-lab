@@ -1,0 +1,356 @@
+waveform,modulation,stress_profile,stress_description,snr_db,trials,payload_length,bit_count,mean_bit_error_rate,std_bit_error_rate,ci95_bit_error_rate,mean_accuracy,success_rate,perfect_rate,sample_payload,sample_decoded_text
+chirp,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-16.0,6,16,128,0.07552083333333333,0.034113589362110036,0.027296556495788587,0.9244791666666666,0.0,0.0,HBRPOIG8F-1CBFNO,HBVPOIG�F-�CBVLO
+chirp,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-12.0,6,16,128,0.005208333333333333,0.00637887953849786,0.005104166666666667,0.9947916666666666,0.8333333333333334,0.5,JQIP98Q-1-ZXOI65,JQIP98Q-1-ZXOI6=
+chirp,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,B-9O-OAEDOECVE6P,B-9O-OAEDOECVE6P
+chirp,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,FLE_EPZH P-_CF0-,FLE_EPZH P-_CF0-
+chirp,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,CTXCWNPGW90JPKL0,CTXCWNPGW90JPKL0
+chirp,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,TSN1-_U322N64KFS,TSN1-_U322N64KFS
+chirp,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,Y-B Y4AWTY088_O5,Y-B Y4AWTY088_O5
+chirp,psk,attenuation,Signal amplitude reduced before decoding.,-16.0,6,16,128,0.053385416666666664,0.03022404404677949,0.02418427205348436,0.9466145833333334,0.0,0.0,W81XE6VA05G1X3J1,_81XQ6VA0=G^3N9
+chirp,psk,attenuation,Signal amplitude reduced before decoding.,-12.0,6,16,128,0.01953125,0.018976496564829873,0.015184359671906922,0.98046875,0.3333333333333333,0.16666666666666666,GMSOXLTA8IRCD9SI,GMSOXMTA8IRCD9SI
+chirp,psk,attenuation,Signal amplitude reduced before decoding.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,_ S2H3TZR6852F_C,_ S2H3TZR6852F_C
+chirp,psk,attenuation,Signal amplitude reduced before decoding.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,S6R044P39JYM_6IE,S6R044P39JYM_6IE
+chirp,psk,attenuation,Signal amplitude reduced before decoding.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,1JP70 LKLFYP5-JO,1JP70 LKLFYP5-JO
+chirp,psk,attenuation,Signal amplitude reduced before decoding.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,AQ8H3XQ-YXGO4B9U,AQ8H3XQ-YXGO4B9U
+chirp,psk,attenuation,Signal amplitude reduced before decoding.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,LQDI07HE42X6-G26,LQDI07HE42X6-G26
+chirp,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-16.0,6,16,128,0.5325520833333334,0.020019928222690175,0.016019278885360116,0.4674479166666667,0.0,0.0,4OGW9XHR O199B_R,"KW �޳�Ů��-"
+chirp,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-12.0,6,16,128,0.5299479166666666,0.01741095276088206,0.01393166373195527,0.4700520833333333,0.0,0.0,1B3EU 1 Z0SHZBUK,1Bs�4a\&߬�����
+chirp,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-8.0,6,16,128,0.5377604166666666,0.020019928222690175,0.016019278885360116,0.4622395833333333,0.0,0.0,D2GVF6LCP2277KXX,D2GVFQ|����ȴ��
+chirp,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-4.0,6,16,128,0.5221354166666666,0.007681188126954492,0.006146230566258568,0.4778645833333333,0.0,0.0,SY670KM_IQD4X9G7,SY670KN���˧Ƹ�
+chirp,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,0.0,6,16,128,0.5234375,0.01307281291459493,0.01046042890691709,0.4765625,0.0,0.0,69BY4CYXQBWEWPG-,69BY4CX-n�������
+chirp,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,4.0,6,16,128,0.5299479166666666,0.005881036349289696,0.004705809150076579,0.4700520833333333,0.0,0.0,2CIEPXXY C_J2XX2,2CIEPXXk߼��ͧ��
+chirp,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,8.0,6,16,128,0.52734375,0.006536406457297465,0.005230214453458545,0.47265625,0.0,0.0,DH7JTKKUOW7SFQM9,DH7JTKKr��Ȭ����
+chirp,psk,phase_jitter,Random sample-level phase/timing jitter.,-16.0,6,16,128,0.08854166666666667,0.040645027114847236,0.03252279515756774,0.9114583333333334,0.0,0.0,FZ63PN-WDDS5_4S8,"G
+7?PE=W�DRN4�
+"
+chirp,psk,phase_jitter,Random sample-level phase/timing jitter.,-12.0,6,16,128,0.009114583333333334,0.007681188126954492,0.006146230566258568,0.9908854166666666,0.8333333333333334,0.16666666666666666,K7YJPC HMB2U0J0N,K7YJPC HMF2U0J0N
+chirp,psk,phase_jitter,Random sample-level phase/timing jitter.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,MSUSDF O8CL0LCZ5,MSUSDF O8CL0LCZ5
+chirp,psk,phase_jitter,Random sample-level phase/timing jitter.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,NP_F727XE HD96M ,NP_F727XE HD96M 
+chirp,psk,phase_jitter,Random sample-level phase/timing jitter.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,PNEG_C2_DPCZ2O8N,PNEG_C2_DPCZ2O8N
+chirp,psk,phase_jitter,Random sample-level phase/timing jitter.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,4P_NZP9USY38WTQX,4P_NZP9USY38WTQX
+chirp,psk,phase_jitter,Random sample-level phase/timing jitter.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,JPM7QWRZFXZ3 POT,JPM7QWRZFXZ3 POT
+chirp,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-16.0,6,16,128,0.09765625,0.012837247441527332,0.01027193727163966,0.90234375,0.0,0.0,YJYUXGFAT2XRGIFL,Yji�XGA2X�GH6�
+chirp,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-12.0,6,16,128,0.01953125,0.010768788087570485,0.008616825081151797,0.98046875,0.16666666666666666,0.0,H M-8L9B3N2SE05I,H M-8L9C3N2SE05I
+chirp,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-8.0,6,16,128,0.0013020833333333333,0.00318943976924893,0.0025520833333333333,0.9986979166666666,1.0,0.8333333333333334,L9KV913OZLL1ZBM2,L9KV913OZLL1ZBM2
+chirp,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,BOSCRO8SK3 596H ,BOSCRO8SK3 596H 
+chirp,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,1N5RUSV9 I 5VDCG,1N5RUSV9 I 5VDCG
+chirp,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,P9___SBTN7_6MZSD,P9___SBTN7_6MZSD
+chirp,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,BV1R7EQ E536XD5 ,BV1R7EQ E536XD5 
+chirp,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-16.0,6,16,128,0.08333333333333333,0.01892281471310932,0.015141405244486978,0.9166666666666666,0.0,0.0,JRFCO70X3F-G6IZE,HRFC��0Y�F)e6QZE
+chirp,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-12.0,6,16,128,0.014322916666666666,0.010384063561133795,0.008308981345925892,0.9856770833333334,0.3333333333333333,0.16666666666666666,IFVHC3DK 1Z5BY1L,IFVHC2DK !Z5BY1L
+chirp,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,FDO_OB74AVMIVLUD,FDO_OB74AVMIVLUD
+chirp,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,CSBUQGEVKYKE9FV_,CSBUQGEVKYKE9FV_
+chirp,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,4 P4TFZC6 7 JH2L,4 P4TFZC6 7 JH2L
+chirp,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,2N057XD6KET6ZI7 ,2N057XD6KET6ZI7 
+chirp,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,VRURQTMJ7PD_ZUIB,VRURQTMJ7PD_ZUIB
+chirp,psk,timing_offset,Receiver starts a few samples late.,-16.0,6,16,128,0.7903645833333334,0.07645347254076604,0.06117551895099552,0.20963541666666666,0.0,0.0,I11Z14YAC8MXAU7M,�Ύ�N��6�ǒ�>�Ȳ
+chirp,psk,timing_offset,Receiver starts a few samples late.,-12.0,6,16,128,0.87109375,0.02649347649658308,0.02119919631682217,0.12890625,0.0,0.0,Q7MW0SKC95N4VPAA,�ɳ�Ϭ��D^�˹�>
+chirp,psk,timing_offset,Receiver starts a few samples late.,-8.0,6,16,128,0.9817708333333334,0.010673907047874581,0.008540904437535355,0.018229166666666668,0.0,0.0,P4WYJ9DAK645KE5U,�˨��ƻ���Kʶ�ʪ
+chirp,psk,timing_offset,Receiver starts a few samples late.,-4.0,6,16,128,0.9986979166666666,0.00318943976924893,0.0025520833333333333,0.0013020833333333333,0.0,0.0,-6I5A7D91-46L-LI,�ɶʾȻ����ɳҳ�
+chirp,psk,timing_offset,Receiver starts a few samples late.,0.0,6,16,128,1.0,0.0,0.0,0.0,0.0,0.0,AQM2OX-8_MMS2LEL,���Ͱ��Ǡ���ͳ��
+chirp,psk,timing_offset,Receiver starts a few samples late.,4.0,6,16,128,1.0,0.0,0.0,0.0,0.0,0.0,K88AENN1GN81EJB3,��Ǿ���θ��κ���
+chirp,psk,timing_offset,Receiver starts a few samples late.,8.0,6,16,128,1.0,0.0,0.0,0.0,0.0,0.0,39ESEQGM-5VWIPGS,�ƺ������ʩ�����
+triangle,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-16.0,6,16,128,0.07682291666666667,0.026339443351021424,0.02107594413085555,0.9231770833333334,0.0,0.0,J4WCO5OEQXOCN7XY,H4WGO5_EPXOCN5XY
+triangle,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-12.0,6,16,128,0.01953125,0.006536406457297465,0.005230214453458545,0.98046875,0.0,0.0,2_44KO0_J-L6QKV3,2_44KO8_J-l6QKV3
+triangle,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,0994LX994QT WZIH,0994LX994QT WZIH
+triangle,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,6G9E6SVH6Q8 Q2Y ,6G9E6SVH6Q8 Q2Y 
+triangle,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,H73UAANY-GUXQL9Q,H73UAANY-GUXQL9Q
+triangle,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,3JKV0 ZEFKVOUUSR,3JKV0 ZEFKVOUUSR
+triangle,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,WS48A54TA1S_OA9X,WS48A54TA1S_OA9X
+triangle,psk,attenuation,Signal amplitude reduced before decoding.,-16.0,6,16,128,0.1015625,0.015625,0.012502603895455806,0.8984375,0.0,0.0,7N4YTUKC97HQ4TMX,6N4XTUKC8���4TE@
+triangle,psk,attenuation,Signal amplitude reduced before decoding.,-12.0,6,16,128,0.013020833333333334,0.00946140735655466,0.007570702622243489,0.9869791666666666,0.5,0.16666666666666666,E8YM759JSU0UHG7E,E8YM759JSU0UHG7E
+triangle,psk,attenuation,Signal amplitude reduced before decoding.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0, 8NY9QX22ZACS_B7, 8NY9QX22ZACS_B7
+triangle,psk,attenuation,Signal amplitude reduced before decoding.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,IVF4 D9ZQFZ61II4,IVF4 D9ZQFZ61II4
+triangle,psk,attenuation,Signal amplitude reduced before decoding.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,BSYOY6GU5_8FLM63,BSYOY6GU5_8FLM63
+triangle,psk,attenuation,Signal amplitude reduced before decoding.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0, O_OOBWF4I6_4XLY, O_OOBWF4I6_4XLY
+triangle,psk,attenuation,Signal amplitude reduced before decoding.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,QUKHFH2XF7Y6KY9Y,QUKHFH2XF7Y6KY9Y
+triangle,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-16.0,6,16,128,0.4622395833333333,0.029405181746448475,0.02352904575038289,0.5377604166666666,0.0,0.0,S4IHRV707NNDG 7F,S4HP�2�u�:��
+triangle,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-12.0,6,16,128,0.4583333333333333,0.02780489128133154,0.022248546690988857,0.5416666666666666,0.0,0.0,BVY8K _YL_HTUCR0,"CVY��1��������"
+triangle,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-8.0,6,16,128,0.4609375,0.01711632992203644,0.013695916362186212,0.5390625,0.0,0.0,KETV82DIB4DGYDF1,KETV82Dz�������
+triangle,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-4.0,6,16,128,0.4583333333333333,0.01275775907699572,0.010208333333333333,0.5416666666666666,0.0,0.0,_3U9G2LTZE_G_YU5,_3U9G2L@р������
+triangle,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,0.0,6,16,128,0.4622395833333333,0.00913316558164072,0.0073080545010473065,0.5377604166666666,0.0,0.0,2YWOL1_A 5P6R08 ,2YWOL1_A'ʯɭ���
+triangle,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,4.0,6,16,128,0.4583333333333333,0.017585357308473056,0.014071216434425436,0.5416666666666666,0.0,0.0,FJ_J50YP2KN WDQH,FJ_J50YT�ߨ���
+triangle,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,8.0,6,16,128,0.4609375,0.013975424859373685,0.011182668882397141,0.5390625,0.0,0.0,R1UQKERDYYVDQQL2,R1UQKERDn�������
+triangle,psk,phase_jitter,Random sample-level phase/timing jitter.,-16.0,6,16,128,0.07552083333333333,0.030724752507817973,0.02458492226503427,0.9244791666666666,0.0,0.0,YE8T582BCVDVCZHN,�E:=�6BCvDVG�H�
+triangle,psk,phase_jitter,Random sample-level phase/timing jitter.,-12.0,6,16,128,0.014322916666666666,0.007681188126954493,0.006146230566258568,0.9856770833333334,0.5,0.0,PLC_L5FTW0A9PMH7,PLC_I5FTW0A9PMH7
+triangle,psk,phase_jitter,Random sample-level phase/timing jitter.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,330KVOS_KK 9OF07,330KVOS_KK 9OF07
+triangle,psk,phase_jitter,Random sample-level phase/timing jitter.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,XXL9E9NIVP8H4-NO,XXL9E9NIVP8H4-NO
+triangle,psk,phase_jitter,Random sample-level phase/timing jitter.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,3KK8SLLJKPHCU I2,3KK8SLLJKPHCU I2
+triangle,psk,phase_jitter,Random sample-level phase/timing jitter.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,WWT29FN202SK10I-,WWT29FN202SK10I-
+triangle,psk,phase_jitter,Random sample-level phase/timing jitter.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,DSS7E6MLG_K8UUTR,DSS7E6MLG_K8UUTR
+triangle,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-16.0,6,16,128,0.09244791666666667,0.026798886889974866,0.021443575527966673,0.9075520833333334,0.0,0.0,LWBFJR-WWK6P6 EG,"L""
+R[UI7P0EE"
+triangle,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-12.0,6,16,128,0.018229166666666668,0.01176207269857939,0.009411618300153156,0.9817708333333334,0.5,0.0,O15R--RZW4_Z56RJ,K15R--RZW4_Z56RJ
+triangle,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,CIXW-BVYG1WW0WDP,CIXW-BVYG1WW0WDP
+triangle,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,9LB7L 5N3R81 D7M,9LB7L 5N3R81 D7M
+triangle,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,R20Q-D58XHU814PR,R20Q-D58XHU814PR
+triangle,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,F0XLZY OBB9OF3MQ,F0XLZY OBB9OF3MQ
+triangle,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,QK65V3IFU71JQHUC,QK65V3IFU71JQHUC
+triangle,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-16.0,6,16,128,0.09114583333333333,0.03517071461694611,0.02814243286885087,0.9088541666666666,0.0,0.0,VC2U INDSUDE9_YF,VC1U�INLSUDE8_YB
+triangle,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-12.0,6,16,128,0.01171875,0.012837247441527332,0.01027193727163966,0.98828125,0.6666666666666666,0.3333333333333333,F6BH3LLZCF0TU-32,F4BH3LLZCF0TU-32
+triangle,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,5OD7B1 U9ER04H5W,5OD7B1 U9ER04H5W
+triangle,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,NXKS265GJXVIHM20,NXKS265GJXVIHM20
+triangle,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,BB8-QPT16HDXQ6WH,BB8-QPT16HDXQ6WH
+triangle,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,SC7JHXTXTS5BJJ-0,SC7JHXTXTS5BJJ-0
+triangle,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,0B7UYQFHG8KSJLQF,0B7UYQFHG8KSJLQF
+triangle,psk,timing_offset,Receiver starts a few samples late.,-16.0,6,16,128,0.65234375,0.037222278904911234,0.02978402619099428,0.34765625,0.0,0.0,6SCK8 ETFZHI9R1N,K!|�ќj����ʹ��
+triangle,psk,timing_offset,Receiver starts a few samples late.,-12.0,6,16,128,0.75,0.04582149468317244,0.03666483186697211,0.25,0.0,0.0,IQ O7RMB8Q93A1DU,��հ謒�Ϣ��:���
+triangle,psk,timing_offset,Receiver starts a few samples late.,-8.0,6,16,128,0.859375,0.02795084971874737,0.022365337764794282,0.140625,0.0,0.0,_A3Y31GVB37V-MGG,���&�޸�����R���
+triangle,psk,timing_offset,Receiver starts a few samples late.,-4.0,6,16,128,0.9466145833333334,0.02177245308966508,0.01742159083599843,0.053385416666666664,0.0,0.0,AXAEWB9HJS2M-XCB,����������Ͳ֯��
+triangle,psk,timing_offset,Receiver starts a few samples late.,0.0,6,16,128,0.99609375,0.00427908248050911,0.003423979090546553,0.00390625,0.0,0.0,CNOM2PZNT1Y KXQ9,����ͯ���Φߴ���
+triangle,psk,timing_offset,Receiver starts a few samples late.,4.0,6,16,128,1.0,0.0,0.0,0.0,0.0,0.0,UM10N229BXI ITA5,���ϱ��ƽ��߶���
+triangle,psk,timing_offset,Receiver starts a few samples late.,8.0,6,16,128,1.0,0.0,0.0,0.0,0.0,0.0,-M63RMAJ2EZ_P7V ,Ҳ�̭���ͺ���ȩ�
+square,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-16.0,6,16,128,0.0859375,0.015625,0.012502603895455806,0.9140625,0.0,0.0,8ZKEARJ2WLNC8N2D,:�[DIRJ0W�OG8N2F
+square,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-12.0,6,16,128,0.013020833333333334,0.00637887953849786,0.005104166666666667,0.9869791666666666,0.5,0.0,B_-2Y6O6-AOBHTP1,B_-2Y6O-AOBHTP1
+square,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,161J4BY1FT_8J9LQ,161J4BY1FT_8J9LQ
+square,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,T0FG WJRNZTAK5AG,T0FG WJRNZTAK5AG
+square,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,H7RPX2460MAUBXCU,H7RPX2460MAUBXCU
+square,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,D-8MY1UXI7_-OGZA,D-8MY1UXI7_-OGZA
+square,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,4LDH6V-1JZPCHPZ5,4LDH6V-1JZPCHPZ5
+square,psk,attenuation,Signal amplitude reduced before decoding.,-16.0,6,16,128,0.09114583333333333,0.02503253091812066,0.02003019638848085,0.9088541666666666,0.0,0.0,C7S82I 5U7W_86NG,E�X0� 5U7W^:�N�
+square,psk,attenuation,Signal amplitude reduced before decoding.,-12.0,6,16,128,0.016927083333333332,0.005881036349289695,0.004705809150076578,0.9830729166666666,0.16666666666666666,0.0,R_GDKUYLW89_Z4-I,R_GDKUYLG89_J4-I
+square,psk,attenuation,Signal amplitude reduced before decoding.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,VP8HST4SQNA ZNT6,VP8HST4SQNA ZNT6
+square,psk,attenuation,Signal amplitude reduced before decoding.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,W6APDV1_A14SS5F1,W6APDV1_A14SS5F1
+square,psk,attenuation,Signal amplitude reduced before decoding.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,-7_XPRN-YFGI_HC-,-7_XPRN-YFGI_HC-
+square,psk,attenuation,Signal amplitude reduced before decoding.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,RIRDPN8HAW_XUF9Q,RIRDPN8HAW_XUF9Q
+square,psk,attenuation,Signal amplitude reduced before decoding.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,8VFMI4 2KTV4JPD8,8VFMI4 2KTV4JPD8
+square,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-16.0,6,16,128,0.4557291666666667,0.02780489128133154,0.022248546690988857,0.5442708333333334,0.0,0.0,0_VIPY09588588OY,3_WI?;������8�
+square,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-12.0,6,16,128,0.4557291666666667,0.03375385780420761,0.02700871130045103,0.5442708333333334,0.0,0.0, 6TO1KRF7YINZDOZ, 6TO1FK=[~.�����
+square,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-8.0,6,16,128,0.4375,0.030055287596361478,0.024049238770004068,0.5625,0.0,0.0,JK67_7V2IVSX1CYP,JK67_?V�eq)n���
+square,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-4.0,6,16,128,0.4596354166666667,0.018098489951972975,0.014481808062425924,0.5403645833333334,0.0,0.0,MZVEUV_5N4HR3C8J,MZVEUV_D���̼ǵ
+square,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,0.0,6,16,128,0.4518229166666667,0.0258718420979579,0.020701785202978943,0.5481770833333334,0.0,0.0,K_YNWNM AXXBTT6H,K_YNWNL @g����ɷ
+square,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,4.0,6,16,128,0.4674479166666667,0.017410952760882063,0.01393166373195527,0.5325520833333334,0.0,0.0,ZMZD 1IYLZU7K1OG,ZMZD 1IP��ȴΰ�
+square,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,8.0,6,16,128,0.4635416666666667,0.006378879538497859,0.005104166666666667,0.5364583333333334,0.0,0.0,4_8AK7QHM_B8B76J,4_8AK7QHJ��ǽ�ɵ
+square,psk,phase_jitter,Random sample-level phase/timing jitter.,-16.0,6,16,128,0.08854166666666667,0.0168769289021038,0.013504355650225513,0.9114583333333334,0.0,0.0,AVN3 UO9EYS_N7NG,IR2 E_��YS[N&C
+square,psk,phase_jitter,Random sample-level phase/timing jitter.,-12.0,6,16,128,0.018229166666666668,0.008068715304598784,0.006456316889510441,0.9817708333333334,0.16666666666666666,0.0,CHDTEQVYRKI-3HIU,CHDTeQVYRKI-3H	U
+square,psk,phase_jitter,Random sample-level phase/timing jitter.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,W1NJZ616VD2RXGDY,W1NJZ616VD2RXGDY
+square,psk,phase_jitter,Random sample-level phase/timing jitter.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,SO76KJGGTV25W8Q5,SO76KJGGTV25W8Q5
+square,psk,phase_jitter,Random sample-level phase/timing jitter.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,1WADQIWS69JFRJM1,1WADQIWS69JFRJM1
+square,psk,phase_jitter,Random sample-level phase/timing jitter.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,V_GS 4VDH-6DN7J9,V_GS 4VDH-6DN7J9
+square,psk,phase_jitter,Random sample-level phase/timing jitter.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,KW66NW7Y6ELJW V3,KW66NW7Y6ELJW V3
+square,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-16.0,6,16,128,0.10546875,0.010768788087570485,0.008616825081151797,0.89453125,0.0,0.0,VL75MN 46WW9IE21,_L6E�)46WW9@E2u
+square,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-12.0,6,16,128,0.010416666666666666,0.01275775907699572,0.010208333333333333,0.9895833333333334,0.5,0.5,8_YB94DYYI119IH2,8_YB94DYYA119MH2
+square,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,CRR-YTFDRY5BYY2C,CRR-YTFDRY5BYY2C
+square,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,2LQRQ5IOLJDOHCL6,2LQRQ5IOLJDOHCL6
+square,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,2URM SPVPXO3UHP2,2URM SPVPXO3UHP2
+square,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,6FJA--X3YU2L6-RG,6FJA--X3YU2L6-RG
+square,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,UK6VR36EUC1G7UM9,UK6VR36EUC1G7UM9
+square,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-16.0,6,16,128,0.09505208333333333,0.03872247846589454,0.030984435847001383,0.9049479166666666,0.0,0.0,U0Z21ZQDR5OVCT20,"u1X2""Z�LR<OV�D:("
+square,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-12.0,6,16,128,0.01953125,0.015428451295415233,0.012345332177082155,0.98046875,0.5,0.0,3MGQ 4YS1FO09R4S,3MGQ 4YS1FO09R5S
+square,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-8.0,6,16,128,0.0013020833333333333,0.00318943976924893,0.0025520833333333333,0.9986979166666666,1.0,0.8333333333333334,15K75I90ZASH1SR7,15K75I90ZASH1SR7
+square,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,AONFJJK4AUEDI621,AONFJJK4AUEDI621
+square,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,BJLIF0HD2DUG8RMB,BJLIF0HD2DUG8RMB
+square,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,W72KC-YJ8 N1WSNV,W72KC-YJ8 N1WSNV
+square,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,FTJW3ZK3AJMLTTFL,FTJW3ZK3AJMLTTFL
+square,psk,timing_offset,Receiver starts a few samples late.,-16.0,6,16,128,0.5703125,0.05014627042462879,0.04012537318102683,0.4296875,0.0,0.0,ZAKUI 6Y3A5Z1DT1,�������:��R
+square,psk,timing_offset,Receiver starts a few samples late.,-12.0,6,16,128,0.6575520833333334,0.027694917648219623,0.02216054945746934,0.3424479166666667,0.0,0.0,_GY6FVT1ZBLQF1HM,"h����Ś��""���"
+square,psk,timing_offset,Receiver starts a few samples late.,-8.0,6,16,128,0.703125,0.01711632992203644,0.013695916362186212,0.296875,0.0,0.0,3BJ-KW 10BS95PY8,ԭr��^�O�h&k��
+square,psk,timing_offset,Receiver starts a few samples late.,-4.0,6,16,128,0.78515625,0.03689287172849248,0.029520445554380898,0.21484375,0.0,0.0,UISEBN 33P_2PL36,괟g���L������
+square,psk,timing_offset,Receiver starts a few samples late.,0.0,6,16,128,0.8854166666666666,0.01454608337892598,0.011639290797887034,0.11458333333333333,0.0,0.0,SJIJ_SYQOBN-TJ-A,������&����߻���
+square,psk,timing_offset,Receiver starts a few samples late.,4.0,6,16,128,0.93359375,0.017643109047869084,0.014117427450229732,0.06640625,0.0,0.0,P--43G8DUEM4H2F4,����̸ǻ���Ͽ͹�
+square,psk,timing_offset,Receiver starts a few samples late.,8.0,6,16,128,0.9427083333333334,0.013681172433920518,0.010947217905071183,0.057291666666666664,0.0,0.0,74_0ROQ4TXJTVWU2,�ˤﭰ�˫��ﹸ��
+sine,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-16.0,6,16,128,0.09635416666666667,0.024037459915029848,0.019233973758112956,0.9036458333333334,0.0,0.0,IEUX2NLU3O3XVMQQ,"IeqY""MLu)N3XV�PU"
+sine,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-12.0,6,16,128,0.01171875,0.018321936561810272,0.014660602587518928,0.98828125,0.6666666666666666,0.5,B8_CI8WEUUONMTK1,B8_CI8WEUUONMTK1
+sine,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,SX0K0LL7JLXHKB5N,SX0K0LL7JLXHKB5N
+sine,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,DMLAJCPKZUA 44WM,DMLAJCPKZUA 44WM
+sine,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,7043UITAEQ9TN_ED,7043UITAEQ9TN_ED
+sine,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,P-5O-1RG59_ Y_7Y,P-5O-1RG59_ Y_7Y
+sine,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,M-T69S98LZEMFF_Z,M-T69S98LZEMFF_Z
+sine,psk,attenuation,Signal amplitude reduced before decoding.,-16.0,6,16,128,0.08333333333333333,0.034821905521764125,0.02786332746391054,0.9166666666666666,0.0,0.0,25-1EKB929DW4JEW,"2%,ECJ)S9DW4JE^"
+sine,psk,attenuation,Signal amplitude reduced before decoding.,-12.0,6,16,128,0.0026041666666666665,0.004034357652299393,0.0032281584447552214,0.9973958333333334,1.0,0.6666666666666666,GKA7AAUYTB  XELM,GKA7AAUYTB  XELM
+sine,psk,attenuation,Signal amplitude reduced before decoding.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,GU94YT5SD7CMFT- ,GU94YT5SD7CMFT- 
+sine,psk,attenuation,Signal amplitude reduced before decoding.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,UKQZS8SS QGHZMF9,UKQZS8SS QGHZMF9
+sine,psk,attenuation,Signal amplitude reduced before decoding.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,Y HOC 8EB4 YSY2P,Y HOC 8EB4 YSY2P
+sine,psk,attenuation,Signal amplitude reduced before decoding.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,LR JZ MJ0U3PI5U7,LR JZ MJ0U3PI5U7
+sine,psk,attenuation,Signal amplitude reduced before decoding.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,B-0KXQM6R7B5UKDP,B-0KXQM6R7B5UKDP
+sine,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-16.0,6,16,128,0.4348958333333333,0.02454003956122864,0.019636121229622834,0.5651041666666666,0.0,0.0,FYU7M4M5_L4S-D2L,F\�7M6Gt�F��ګͫ
+sine,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-12.0,6,16,128,0.4674479166666667,0.018098489951972975,0.014481808062425924,0.5325520833333334,0.0,0.0,BIUYJZXA1LJ-LNGB,BIUYJZ\�򱥒����
+sine,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-8.0,6,16,128,0.4348958333333333,0.01613743060919757,0.012912633779020882,0.5651041666666666,0.0,0.0,4BU6GYJUF753_RE2,4BU6GYKT^D�젭��
+sine,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-4.0,6,16,128,0.4518229166666667,0.013456261127878972,0.01076725137892417,0.5481770833333334,0.0,0.0,UZLUCSU  C6DI5EE,UZLUCSU!&�ɻ�ʺ�
+sine,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,0.0,6,16,128,0.4466145833333333,0.01149968862803105,0.00920166731759039,0.5533854166666666,0.0,0.0,6YKM_QVMUQZHS2B2,6YKM_QVMA����ͽ�
+sine,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,4.0,6,16,128,0.4544270833333333,0.005881036349289695,0.004705809150076578,0.5455729166666666,0.0,0.0,AHFP3-9RRB 4EJNE,AHFP3-9RT��˺���
+sine,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,8.0,6,16,128,0.4361979166666667,0.01149968862803105,0.00920166731759039,0.5638020833333334,0.0,0.0,INZF0H68C7G AQ9K,INZF0H68K(�߾�ƴ
+sine,psk,phase_jitter,Random sample-level phase/timing jitter.,-16.0,6,16,128,0.06901041666666667,0.03218016704496213,0.02574949643857677,0.9309895833333334,0.0,0.0,F4Q8FFPG3YVP_4CU,F4Qx�o1Vq_4CW
+sine,psk,phase_jitter,Random sample-level phase/timing jitter.,-12.0,6,16,128,0.018229166666666668,0.008068715304598784,0.006456316889510441,0.9817708333333334,0.16666666666666666,0.0,EFQW4Z6PIHBKF LM,EFQV4Z6PIHBKF LM
+sine,psk,phase_jitter,Random sample-level phase/timing jitter.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,P_7S5E1_B0E9FJCX,P_7S5E1_B0E9FJCX
+sine,psk,phase_jitter,Random sample-level phase/timing jitter.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,JQ_EQHY9ZAEMQ539,JQ_EQHY9ZAEMQ539
+sine,psk,phase_jitter,Random sample-level phase/timing jitter.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,PT1-_Y2NOGF022JY,PT1-_Y2NOGF022JY
+sine,psk,phase_jitter,Random sample-level phase/timing jitter.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,F7Q2JSJ1RLO0TK7E,F7Q2JSJ1RLO0TK7E
+sine,psk,phase_jitter,Random sample-level phase/timing jitter.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,0K65ICNE_XTH_0YY,0K65ICNE_XTH_0YY
+sine,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-16.0,6,16,128,0.09114583333333333,0.02076812712226759,0.016617962691851784,0.9088541666666666,0.0,0.0,H2516C9 6EJYV2RJ,"H2536Cy""6MJY�GJ"
+sine,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-12.0,6,16,128,0.010416666666666666,0.008068715304598784,0.006456316889510441,0.9895833333333334,0.6666666666666666,0.16666666666666666,Z0 VTFPK4EUD1Z1J,Z0`VTFPK4EUD9Z1J
+sine,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,CZVK42W6TSZ0PTUN,CZVK42W6TSZ0PTUN
+sine,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,MNJV6R7Z7-M1C3-9,MNJV6R7Z7-M1C3-9
+sine,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,KXGST89EEJHAPERL,KXGST89EEJHAPERL
+sine,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,VHCUPT81SCGDTIQY,VHCUPT81SCGDTIQY
+sine,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,GB4NIK6P0A7R M59,GB4NIK6P0A7R M59
+sine,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-16.0,6,16,128,0.08203125,0.025555355052806445,0.020448542824510342,0.91796875,0.0,0.0,3KDD37SN0HSJSRL1,�KDE�7SO2HSK[RLq
+sine,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-12.0,6,16,128,0.015625,0.011048543456039806,0.008840675996966144,0.984375,0.3333333333333333,0.16666666666666666,PUCVW4P8V5O19BEG,PUCVW4S8V5O19BEG
+sine,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,2OICHNXT1JEK4YAK,2OICHNXT1JEK4YAK
+sine,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,V9ILC15NIOF7J2E1,V9ILC15NIOF7J2E1
+sine,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,HP0JR6OUXDXTK YC,HP0JR6OUXDXTK YC
+sine,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,OXV8LSMBF4YT0RS6,OXV8LSMBF4YT0RS6
+sine,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,GV0H9I_7APYV45QS,GV0H9I_7APYV45QS
+sine,psk,timing_offset,Receiver starts a few samples late.,-16.0,6,16,128,0.65234375,0.02995357736356377,0.02396785363382587,0.34765625,0.0,0.0,FBYJ3EUNGLNQVWD1,��������1�?�/�
+sine,psk,timing_offset,Receiver starts a few samples late.,-12.0,6,16,128,0.7213541666666666,0.03619697990394595,0.02896361612485185,0.2786458333333333,0.0,0.0,V GSB6T MLMGLOSJ,"�����k��
+?���"
+sine,psk,timing_offset,Receiver starts a few samples late.,-8.0,6,16,128,0.8489583333333334,0.04730703678277331,0.03785351311121745,0.15104166666666666,0.0,0.0,T6RCBK4OAA61_ZYE,�ɍ{��˰���Π��8
+sine,psk,timing_offset,Receiver starts a few samples late.,-4.0,6,16,128,0.9440104166666666,0.018760847556591537,0.01501180452755801,0.055989583333333336,0.0,0.0,KMWZG38F3ANKGF_K,��Ȥ��ǹ̺���8��
+sine,psk,timing_offset,Receiver starts a few samples late.,0.0,6,16,128,0.9908854166666666,0.005881036349289696,0.004705809150076579,0.009114583333333334,0.0,0.0,H6L8U0BVO 2B5-81,�ɳǊϼ���ͽ����
+sine,psk,timing_offset,Receiver starts a few samples late.,4.0,6,16,128,1.0,0.0,0.0,0.0,0.0,0.0,SW2863C2FWLP8Z2Y,�����̼͹���ǥͦ
+sine,psk,timing_offset,Receiver starts a few samples late.,8.0,6,16,128,1.0,0.0,0.0,0.0,0.0,0.0,ZKQFUL8V4LVYK KZ,������ǩ˳���ߴ�
+chirp,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-16.0,6,16,128,0.24869791666666666,0.04430911335201447,0.03545467476474169,0.7513020833333334,0.0,0.0,FCWL3Y7H-749D_I4,VBV5ZJ�4�T��=
+chirp,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-12.0,6,16,128,0.09244791666666667,0.014334748900544671,0.011470187996437162,0.9075520833333334,0.0,0.0,S77YY-5J5O122S0J,"S7Yy,=J5�2sS Z"
+chirp,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-8.0,6,16,128,0.010416666666666666,0.00637887953849786,0.005104166666666667,0.9895833333333334,0.5,0.16666666666666666,3NM2N -LBULLJ  N,3NM2N -LBUL�  N
+chirp,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,LCCQ95_3766 2WNX,LCCQ95_3766 2WNX
+chirp,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,2IV72PMNCS M1YVN,2IV72PMNCS M1YVN
+chirp,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,_D2F11-B0OIIS7GV,_D2F11-B0OIIS7GV
+chirp,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,GPD3OVFDSX7R5TMZ,GPD3OVFDSX7R5TMZ
+chirp,fsk,attenuation,Signal amplitude reduced before decoding.,-16.0,6,16,128,0.2552083333333333,0.040645027114847236,0.03252279515756774,0.7447916666666666,0.0,0.0,LCQ_6C-T_5Z_75OE,�C�T�dY�ZSu1C
+chirp,fsk,attenuation,Signal amplitude reduced before decoding.,-12.0,6,16,128,0.09114583333333333,0.01176207269857939,0.009411618300153156,0.9088541666666666,0.0,0.0,BE8ZQT8IKH2W76O ,BE<ZYT8h�rW66o 
+chirp,fsk,attenuation,Signal amplitude reduced before decoding.,-8.0,6,16,128,0.013020833333333334,0.01275775907699572,0.010208333333333333,0.9869791666666666,0.5,0.3333333333333333,Y8PQ1BR26TJE2AJ9,Y8PQ1CR26TJE2AJ9
+chirp,fsk,attenuation,Signal amplitude reduced before decoding.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,MSRB 0ZE44E7IQ_8,MSRB 0ZE44E7IQ_8
+chirp,fsk,attenuation,Signal amplitude reduced before decoding.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,DY5ADB_ TIT7-QLD,DY5ADB_ TIT7-QLD
+chirp,fsk,attenuation,Signal amplitude reduced before decoding.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,X6Q87YDA8AG4-7Z4,X6Q87YDA8AG4-7Z4
+chirp,fsk,attenuation,Signal amplitude reduced before decoding.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,SK5KBM98YKE4WA8D,SK5KBM98YKE4WA8D
+chirp,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-16.0,6,16,128,0.41015625,0.05176333991711702,0.04141929825853122,0.58984375,0.0,0.0,-I4GR2IQYOCF_8YQ,"�$o����hوre"
+chirp,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-12.0,6,16,128,0.3059895833333333,0.01940060472103039,0.015523716874198583,0.6940104166666666,0.0,0.0,MUT0-UGCAMB3ZLAX,�UL4-��};�lUA
+chirp,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-8.0,6,16,128,0.15494791666666666,0.040569874458046655,0.03246266050798893,0.8450520833333334,0.0,0.0,YB_PIBFI1W37 9LY,YB_@O!�3W��d3LY
+chirp,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-4.0,6,16,128,0.125,0.020372507516258277,0.0163014010773103,0.875,0.0,0.0,RD3KNIR4L6K9URAD,RD3KJa_v_yURAD
+chirp,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,0.0,6,16,128,0.07161458333333333,0.020620659265447035,0.016499963830978875,0.9283854166666666,0.0,0.0,0F6J4MT8FNECQVCJ,0F6J4L8��e�QVCJ
+chirp,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,4.0,6,16,128,0.040364583333333336,0.013456261127878972,0.01076725137892417,0.9596354166666666,0.0,0.0,FG36YG_BJVS2YDLK,FG36YBNBJVS�YDLK
+chirp,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,8.0,6,16,128,0.041666666666666664,0.020171788261496962,0.016140792223776103,0.9583333333333334,0.0,0.0,WWPX VJCXYECD05 ,WWPX VJCX_UCD05 
+chirp,fsk,phase_jitter,Random sample-level phase/timing jitter.,-16.0,6,16,128,0.2565104166666667,0.02062065926544704,0.01649996383097888,0.7434895833333334,0.0,0.0,6QPAJHFYZ2OIASV3,�xSAz@F���K�auv
+chirp,fsk,phase_jitter,Random sample-level phase/timing jitter.,-12.0,6,16,128,0.10807291666666667,0.01809848995197297,0.014481808062425923,0.8919270833333334,0.0,0.0,GY97CDVP48_NE9Y_,EZ85GDVP0<_^E)Y[
+chirp,fsk,phase_jitter,Random sample-level phase/timing jitter.,-8.0,6,16,128,0.018229166666666668,0.01892281471310932,0.015141405244486978,0.9817708333333334,0.3333333333333333,0.16666666666666666,233WZ-G8OIEBK_F0,233WZ-G8OIEBK_F0
+chirp,fsk,phase_jitter,Random sample-level phase/timing jitter.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,SJQN0IV9URJG66C8,SJQN0IV9URJG66C8
+chirp,fsk,phase_jitter,Random sample-level phase/timing jitter.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,VT6FVLZ_JUX YZT2,VT6FVLZ_JUX YZT2
+chirp,fsk,phase_jitter,Random sample-level phase/timing jitter.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,I 1ZU0MM3AHRDCWJ,I 1ZU0MM3AHRDCWJ
+chirp,fsk,phase_jitter,Random sample-level phase/timing jitter.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,WC4ZFD93C6LY_5H6,WC4ZFD93C6LY_5H6
+chirp,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-16.0,6,16,128,0.2877604166666667,0.045665827908203595,0.036540272505236525,0.7122395833333334,0.0,0.0,UJAEOYLZD6SZO 4X,"E�	A�]jJA""IO<Y"
+chirp,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-12.0,6,16,128,0.140625,0.01976423537605237,0.01581468199701362,0.859375,0.0,0.0,I2YB3V 78480WPN ,I2#� $00P 
+chirp,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-8.0,6,16,128,0.015625,0.00855816496101822,0.006847958181093106,0.984375,0.3333333333333333,0.0,FH WI YOUNDX-3AL,BH WI YO�NDH-3AL
+chirp,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,DLH4C4UT7WMS0XV4,DLH4C4UT7WMS0XV4
+chirp,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,TO2-06Z8BC9UJ RY,TO2-06Z8BC9UJ RY
+chirp,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,9Q5KPBNRICI8S3E-,9Q5KPBNRICI8S3E-
+chirp,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,CO_JWG-QWL_UH5GL,CO_JWG-QWL_UH5GL
+chirp,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,-16.0,6,16,128,0.2643229166666667,0.028987077311134122,0.0231944925253161,0.7356770833333334,0.0,0.0,0FZW8FJ_IBX KJ-S,�h[LHY�&	NP
+chirp,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,-12.0,6,16,128,0.1328125,0.02153757617514097,0.017233650162303594,0.8671875,0.0,0.0,CYL 65274PU7UYZS,G�l &!:71a�7U�ZW
+chirp,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,-8.0,6,16,128,0.015625,0.023696485762661094,0.018961137613111016,0.984375,0.6666666666666666,0.3333333333333333,W9K0K DD2Z81K31P,W9K0K DD2Z81K31P
+chirp,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,-4.0,6,16,128,0.0013020833333333333,0.00318943976924893,0.0025520833333333333,0.9986979166666666,1.0,0.8333333333333334,8TW5LBJZYXZ8YKW ,8TW5LBJZYXZ8YKW 
+chirp,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,_K6ZAUKHCKZI3CZZ,_K6ZAUKHCKZI3CZZ
+chirp,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,1XHDORSTQI__CZ4R,1XHDORSTQI__CZ4R
+chirp,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,88PW9UU9UKL-TKWI,88PW9UU9UKL-TKWI
+chirp,fsk,timing_offset,Receiver starts a few samples late.,-16.0,6,16,128,0.4322916666666667,0.05669672150280532,0.04536682567171499,0.5677083333333334,0.0,0.0,84MAS91LUEULH2T0,.d�aݷ��V��:6ԉ
+chirp,fsk,timing_offset,Receiver starts a few samples late.,-12.0,6,16,128,0.3450520833333333,0.029405181746448475,0.02352904575038289,0.6549479166666666,0.0,0.0,K9X5V W7I7H-DLJE,"���{O��_�oF�O�"
+chirp,fsk,timing_offset,Receiver starts a few samples late.,-8.0,6,16,128,0.3190104166666667,0.0329300968119085,0.026349565227411456,0.6809895833333334,0.0,0.0,IZBHH P-FAP8I 4T,O�bpOo}n�I߽I���
+chirp,fsk,timing_offset,Receiver starts a few samples late.,-4.0,6,16,128,0.27734375,0.018976496564829873,0.015184359671906922,0.72265625,0.0,0.0,3BK8_0Y0AVPSL7FY,{B���=��A~q�Ͽn}
+chirp,fsk,timing_offset,Receiver starts a few samples late.,0.0,6,16,128,0.2786458333333333,0.05103103630798287,0.04083333333333333,0.7213541666666666,0.0,0.0,B199HGYRCMTN-67E,s��}h��w�oT��~�}
+chirp,fsk,timing_offset,Receiver starts a few samples late.,4.0,6,16,128,0.26953125,0.043568260917495896,0.034861869354580424,0.73046875,0.0,0.0,Q 0NLLXF5TJLSAQN,�)��oZ��]n�[���
+chirp,fsk,timing_offset,Receiver starts a few samples late.,8.0,6,16,128,0.2630208333333333,0.04124131853089407,0.03299992766195775,0.7369791666666666,0.0,0.0,HBQUR0H5H K9E4A3,��w�[2[��q��ݼs3
+square,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-16.0,6,16,128,0.2526041666666667,0.03686528826913831,0.029498374190133115,0.7473958333333334,0.0,0.0,60IN3YDA67RT3QB6,"l""MFyla5wX�q�"
+square,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-12.0,6,16,128,0.10546875,0.014615849167085708,0.011695115054835217,0.89453125,0.0,0.0,FHQHZAB-FY JPI5M,�HHZAB-F�{AM5_
+square,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-8.0,6,16,128,0.013020833333333334,0.013681172433920518,0.010947217905071183,0.9869791666666666,0.6666666666666666,0.16666666666666666,IRBI8F6JIO62_SAJ,IRBI�F6NIO62_SAJ
+square,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,511UOQTYCTLJ20OT,511UOQTYCTLJ20OT
+square,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,HJFV1Q_WKWQ LBZR,HJFV1Q_WKWQ LBZR
+square,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,CANT4HPG5G-390CG,CANT4HPG5G-390CG
+square,fsk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,KQSMINZLKHZ-CY_Y,KQSMINZLKHZ-CY_Y
+square,fsk,attenuation,Signal amplitude reduced before decoding.,-16.0,6,16,128,0.2643229166666667,0.055992611352228126,0.04480342021178307,0.7356770833333334,0.0,0.0,UBHR50QJ56-1HU4P,mZR!�H}�-�HU>g
+square,fsk,attenuation,Signal amplitude reduced before decoding.,-12.0,6,16,128,0.11848958333333333,0.02232607838474251,0.017864583333333336,0.8815104166666666,0.0,0.0,K LVQZ7ZJ2L97TC2,"4lNU%Z
+rL87TBr"
+square,fsk,attenuation,Signal amplitude reduced before decoding.,-8.0,6,16,128,0.016927083333333332,0.012516265459060328,0.010015098194240422,0.9830729166666666,0.5,0.0,7QJL4NZI3NLDLLJ4,7QJL4NZI3NLDLLJ�
+square,fsk,attenuation,Signal amplitude reduced before decoding.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,H2K R21P9A8O CZU,H2K R21P9A8O CZU
+square,fsk,attenuation,Signal amplitude reduced before decoding.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,C-OLKWMPNLAKPWEC,C-OLKWMPNLAKPWEC
+square,fsk,attenuation,Signal amplitude reduced before decoding.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,ILZ2EOG4XOZI1R4U,ILZ2EOG4XOZI1R4U
+square,fsk,attenuation,Signal amplitude reduced before decoding.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,K--91WGWDKV38S1R,K--91WGWDKV38S1R
+square,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-16.0,6,16,128,0.4088541666666667,0.021347814095749165,0.01708180887507071,0.5911458333333334,0.0,0.0,D-X1MLE4SCBOEDF ,��y�e�g���h��
+square,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-12.0,6,16,128,0.3072916666666667,0.04240875622046309,0.03393407236629744,0.6927083333333334,0.0,0.0,X40C1NQ_SLCR1E4U,"""0�G
+s���R��f�"
+square,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-8.0,6,16,128,0.24088541666666666,0.02813223286626333,0.02251047451018328,0.7591145833333334,0.0,0.0,48EQ1DT50GSO367Q,4 DQz�G���?Q
+square,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-4.0,6,16,128,0.16276041666666666,0.028132232866263332,0.02251047451018328,0.8372395833333334,0.0,0.0,FB62661VN6V_CY4N,FB62<2y�6^�Y5O
+square,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,0.0,6,16,128,0.10026041666666667,0.03062526573013966,0.02450531626348885,0.8997395833333334,0.0,0.0,HSW 02BY_LEV82MA,HSW 0 	_NG_>3�A
+square,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,4.0,6,16,128,0.08333333333333333,0.033390250885051265,0.02671776517028407,0.9166666666666666,0.0,0.0,V L3RFE08A1-H_YH,V L3RF 8A5}X�YH
+square,fsk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,8.0,6,16,128,0.08072916666666667,0.0168769289021038,0.013504355650225513,0.9192708333333334,0.0,0.0,RBPZR68JHW 25P7X,"RBPZR6
+HW8?�P7X"
+square,fsk,phase_jitter,Random sample-level phase/timing jitter.,-16.0,6,16,128,0.2682291666666667,0.032274861218395144,0.02582526755804177,0.7317708333333334,0.0,0.0,_PGUM_7M_FJIZABA,XSO}�[�j�c#�
+square,fsk,phase_jitter,Random sample-level phase/timing jitter.,-12.0,6,16,128,0.11067708333333333,0.025395632519031035,0.0203207381798401,0.8893229166666666,0.0,0.0,SATPT5QHKUOEM4UZ,�ATP5S@KuNEEUR
+square,fsk,phase_jitter,Random sample-level phase/timing jitter.,-8.0,6,16,128,0.005208333333333333,0.004034357652299393,0.0032281584447552214,0.9947916666666666,1.0,0.3333333333333333,9W6AWW8FGU2QRZXP,9W6QWW8FGU2QRZXP
+square,fsk,phase_jitter,Random sample-level phase/timing jitter.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,4C_KCH_F8SOFFMJY,4C_KCH_F8SOFFMJY
+square,fsk,phase_jitter,Random sample-level phase/timing jitter.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,Y7ZDVDZPCZZP1AXC,Y7ZDVDZPCZZP1AXC
+square,fsk,phase_jitter,Random sample-level phase/timing jitter.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,ZZKK_XJH55DU0YAP,ZZKK_XJH55DU0YAP
+square,fsk,phase_jitter,Random sample-level phase/timing jitter.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,N1VYH9PMU_5Q93Z9,N1VYH9PMU_5Q93Z9
+square,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-16.0,6,16,128,0.2721354166666667,0.035772947544781185,0.028624319572820318,0.7278645833333334,0.0,0.0,-7J_A4VUFVRVIYD2,-B=�Q��M�YL2
+square,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-12.0,6,16,128,0.13802083333333334,0.05516901115360567,0.04414440280048096,0.8619791666666666,0.0,0.0,WZQ0ES 2RU_5-NG7,S E�0R\%LVV
+square,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-8.0,6,16,128,0.0390625,0.02209708691207961,0.01768135199393229,0.9609375,0.0,0.0,V8SEY7DYEMQ XZT3,V8�EY7DYAMQ XZT3
+square,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-4.0,6,16,128,0.00390625,0.00427908248050911,0.003423979090546553,0.99609375,1.0,0.5,QTQE6-4SAJMM7081,"QTQE64SAJMM7081"
+square,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,1AKQRJCOFW7_IV7R,1AKQRJCOFW7_IV7R
+square,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0, T09-B0JPI3JO4H2, T09-B0JPI3JO4H2
+square,fsk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,_BVF98GJ 87YG6IB,_BVF98GJ 87YG6IB
+square,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,-16.0,6,16,128,0.2747395833333333,0.03934791561876774,0.0314848897979694,0.7252604166666666,0.0,0.0,T4DGJOUDMZ82HUZ8,|1�DNOlDpbHU~ 
+square,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,-12.0,6,16,128,0.11067708333333333,0.01940060472103039,0.015523716874198583,0.8893229166666666,0.0,0.0,3NTSY4QYLHW W8SF,{�RSQ�QqH W4SF
+square,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,-8.0,6,16,128,0.013020833333333334,0.009461407356554662,0.007570702622243491,0.9869791666666666,0.5,0.16666666666666666,CEN219O05WBG42EU,�EN219Op5WG42EU
+square,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,-4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,FX4S-MJWFHQ-3773,FX4S-MJWFHQ-3773
+square,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,0.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,MDL61VVBUIKSGGSJ,MDL61VVBUIKSGGSJ
+square,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,4.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,-611MRLD-WP134PR,-611MRLD-WP134PR
+square,fsk,narrowband_interference,A nearby sinusoidal interferer is injected.,8.0,6,16,128,0.0,0.0,0.0,1.0,1.0,1.0,61P B0GZ8JS 4-P_,61P B0GZ8JS 4-P_
+square,fsk,timing_offset,Receiver starts a few samples late.,-16.0,6,16,128,0.4583333333333333,0.02736234486784104,0.02189443581014237,0.5416666666666666,0.0,0.0, 3F02B09ONVO_HCG,��<�W�S�=�eS1�
+square,fsk,timing_offset,Receiver starts a few samples late.,-12.0,6,16,128,0.4205729166666667,0.01940060472103039,0.015523716874198583,0.5794270833333334,0.0,0.0,JDNUME1D4 G5-GN8,��OO�CD��C�>>�^�
+square,fsk,timing_offset,Receiver starts a few samples late.,-8.0,6,16,128,0.3294270833333333,0.051210128036763065,0.040976636561870367,0.6705729166666666,0.0,0.0,QWVKUL5TEAIXS5E3,]���\���}���ku�_
+square,fsk,timing_offset,Receiver starts a few samples late.,-4.0,6,16,128,0.2643229166666667,0.03473415593535658,0.02779311317137655,0.7356770833333334,0.0,0.0,KM6HHWKIOJ9JLL9J,�}~H�w�y���_���
+square,fsk,timing_offset,Receiver starts a few samples late.,0.0,6,16,128,0.21614583333333334,0.016137430609197572,0.012912633779020886,0.7838541666666666,0.0,0.0,F69OBYOW59BO39-H,V�9��[��5�JOw�/�
+square,fsk,timing_offset,Receiver starts a few samples late.,4.0,6,16,128,0.1640625,0.02660841619676,0.021291167231585337,0.8359375,0.0,0.0,RT35LUA8SLPJQLNT,VT3�L]axW^��yLN�
+square,fsk,timing_offset,Receiver starts a few samples late.,8.0,6,16,128,0.12890625,0.02870495792324037,0.022968750000000003,0.87109375,0.0,0.0,P-LZY_N4AZOIWCNH,t/o^Y_�6CZ�MWC~\
+pulse,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-16.0,6,16,128,0.24609375,0.031926276158910236,0.025546341418994492,0.75390625,0.0,0.0,GF25101VDWL40EIB,B0!10`F@@P@
+pulse,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-12.0,6,16,128,0.23177083333333334,0.04124131853089407,0.03299992766195775,0.7682291666666666,0.0,0.0,G59M50V EVN7ICGG,E2� B    
+pulse,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-8.0,6,16,128,0.22786458333333334,0.016695125442525632,0.013358882585142035,0.7721354166666666,0.0,0.0,HT1XALJMS539ASW5,H! L@@3 @ %
+pulse,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,-4.0,6,16,128,0.23828125,0.04809607491131683,0.038484875106711294,0.76171875,0.0,0.0,IB9X0R DHMJQXF N,    D @ @  
+pulse,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,0.0,6,16,128,0.2565104166666667,0.021772453089665085,0.01742159083599843,0.7434895833333334,0.0,0.0,FGX7Y171HF  4Y2W, XY1% B    
+pulse,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,4.0,6,16,128,0.24348958333333334,0.041462717000236085,0.033177083333333336,0.7565104166666666,0.0,0.0,I7XT1GPA83MA8 4I,A X 1G@AE    
+pulse,psk,baseline_awgn,AWGN only; validates the Simulation 002 ranking with random payloads.,8.0,6,16,128,0.26953125,0.03754879637718099,0.030045294582721274,0.73046875,0.0,0.0,F-EQPA3BXS4P0DHV,@ A PA0B      
+pulse,psk,attenuation,Signal amplitude reduced before decoding.,-16.0,6,16,128,0.2643229166666667,0.032180167044962134,0.025749496438576772,0.7356770833333334,0.0,0.0,JB8ZDFTYBUF-B9VR,`!P$D	H	1
+pulse,psk,attenuation,Signal amplitude reduced before decoding.,-12.0,6,16,128,0.24739583333333334,0.03189439769248929,0.02552083333333333,0.7526041666666666,0.0,0.0,9NPA15M_26SIG9-H,"@P@5-L0&c @!,I"
+pulse,psk,attenuation,Signal amplitude reduced before decoding.,-8.0,6,16,128,0.22005208333333334,0.020019928222690178,0.01601927888536012,0.7799479166666666,0.0,0.0,YSB9M9X8BUBESH2G, B(M1X@B B  @
+pulse,psk,attenuation,Signal amplitude reduced before decoding.,-4.0,6,16,128,0.2421875,0.03163821364268216,0.025315843400592706,0.7578125,0.0,0.0,BIQLY1IQ 2XP4SBU,"B	@Y1P ""    @"
+pulse,psk,attenuation,Signal amplitude reduced before decoding.,0.0,6,16,128,0.2708333333333333,0.030724752507817973,0.02458492226503427,0.7291666666666666,0.0,0.0,XC_L8RZ3KAD3MRL_,XKDRP C@     
+pulse,psk,attenuation,Signal amplitude reduced before decoding.,4.0,6,16,128,0.28125,0.029231698334171417,0.023390230109670434,0.71875,0.0,0.0,VFQ1C_F-OUGF4TWW,"P A!C_B     "
+pulse,psk,attenuation,Signal amplitude reduced before decoding.,8.0,6,16,128,0.2864583333333333,0.020171788261496962,0.016140792223776103,0.7135416666666666,0.0,0.0,FSJDJX_PZTXCJ9LP,@ JJXS @      
+pulse,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-16.0,6,16,128,0.4596354166666667,0.03808677215965756,0.03047576486199503,0.5403645833333334,0.0,0.0, 625A2SW_FXMDQRU," 0Q!�Z0  ),"
+pulse,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-12.0,6,16,128,0.41796875,0.031926276158910236,0.025546341418994492,0.58203125,0.0,0.0,0O0AP8 F4PY_A36-,00@pl1n�+�0�@@�
+pulse,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-8.0,6,16,128,0.3880208333333333,0.048328169623591856,0.03867058955495478,0.6119791666666666,0.0,0.0,X5N3GM874SCKINSY,J1GM6&��D��
+pulse,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,-4.0,6,16,128,0.3828125,0.02519455546343297,0.02015984302600924,0.6171875,0.0,0.0,YJ-GF82KI6KR4H7M,@ -F8r��(`� �@
+pulse,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,0.0,6,16,128,0.3776041666666667,0.03973381483908469,0.03179367348406143,0.6223958333333334,0.0,0.0,KDHNA5E15WMKHYOM, @ A5A0@0   
+pulse,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,4.0,6,16,128,0.3151041666666667,0.02551551815399144,0.020416666666666666,0.6848958333333334,0.0,0.0,PA4_Z7VC-1TX-83I,"  Z7P@   @   "
+pulse,psk,frequency_drift,Small sample-time compression/expansion to mimic oscillator drift.,8.0,6,16,128,0.33203125,0.031926276158910236,0.025546341418994492,0.66796875,0.0,0.0,SGT5WM8EM3CUTITU,Q T$WMD  (     
+pulse,psk,phase_jitter,Random sample-level phase/timing jitter.,-16.0,6,16,128,0.2799479166666667,0.031412338754726085,0.025135105848333807,0.7200520833333334,0.0,0.0,LSP9LYI9VVB2RNVB,"d�L#
+PJA2P@. "
+pulse,psk,phase_jitter,Random sample-level phase/timing jitter.,-12.0,6,16,128,0.23567708333333334,0.01940060472103039,0.015523716874198583,0.7643229166666666,0.0,0.0,UAVE861BGY5SQ LN, @ 0  0CP L 
+pulse,psk,phase_jitter,Random sample-level phase/timing jitter.,-8.0,6,16,128,0.24869791666666666,0.02856285329832555,0.022855042618430577,0.7513020833333334,0.0,0.0,J53W7Y4DNYU0JDM1,  H@  @0
+pulse,psk,phase_jitter,Random sample-level phase/timing jitter.,-4.0,6,16,128,0.234375,0.03277527650531724,0.026225683181441306,0.765625,0.0,0.0,03WFT_2WMTFEU4NN,"  @P\""E@@"
+pulse,psk,phase_jitter,Random sample-level phase/timing jitter.,0.0,6,16,128,0.2760416666666667,0.019557274328665195,0.015649078669188306,0.7239583333333334,0.0,0.0,0ZY9JBXIXZV_-XB7,  X)@BXA@@D   
+pulse,psk,phase_jitter,Random sample-level phase/timing jitter.,4.0,6,16,128,0.28125,0.00855816496101822,0.006847958181093106,0.71875,0.0,0.0,MAJW6XMR0U8FWN78,D BA6XAR     
+pulse,psk,phase_jitter,Random sample-level phase/timing jitter.,8.0,6,16,128,0.2786458333333333,0.040343576522993925,0.032281584447552206,0.7213541666666666,0.0,0.0,UOCMDTSA228FGD0X,@ CDTC        
+pulse,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-16.0,6,16,128,0.26171875,0.03035837379332101,0.024291758236677036,0.73828125,0.0,0.0,JBC3R9V5IQM93HJW,"BA	B@	 P
+"
+pulse,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-12.0,6,16,128,0.23177083333333334,0.05405135964216503,0.04325009533547618,0.7682291666666666,0.0,0.0,R2F AN6BNVHQ7-UP, @ a BA(D�
+pulse,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-8.0,6,16,128,0.24479166666666666,0.02824050356609575,0.022597109113286547,0.7552083333333334,0.0,0.0,RR U 4VJFOWMF4UW,R   @HJFD@
+pulse,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,-4.0,6,16,128,0.2526041666666667,0.01454608337892598,0.011639290797887034,0.7473958333333334,0.0,0.0,CRANMT9AEVO2PX7Z,@ T0A@P 
+pulse,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,0.0,6,16,128,0.2421875,0.030856902590830466,0.02469066435416431,0.7578125,0.0,0.0,6E34XXEJ RTGT_KV,& 3XX@B  @  J 
+pulse,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,4.0,6,16,128,0.2721354166666667,0.028132232866263332,0.02251047451018328,0.7278645833333334,0.0,0.0,QGOVR5TGZ8VX3NUJ,P OR5DEH   
+pulse,psk,multipath_echo,Delayed lower-energy copy of the signal added to itself.,8.0,6,16,128,0.2916666666666667,0.026912522255757944,0.02153450275784834,0.7083333333333334,0.0,0.0,R C581_L7UUGZJHX,  C$81OD       
+pulse,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-16.0,6,16,128,0.2799479166666667,0.021772453089665085,0.01742159083599843,0.7200520833333334,0.0,0.0,J67Y1-GFIIMKEQKU,"d�HHB@  YP"
+pulse,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-12.0,6,16,128,0.22265625,0.02458145737898793,0.019669262386080983,0.77734375,0.0,0.0,64ZS34C A041G8P3,$BA1$   00D 
+pulse,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-8.0,6,16,128,0.20182291666666666,0.029817424034306966,0.023858908280562165,0.7981770833333334,0.0,0.0,LHVPE_PZIVKZAILH, HVE Z 	L@
+pulse,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,-4.0,6,16,128,0.22526041666666666,0.013456261127878974,0.010767251378924172,0.7747395833333334,0.0,0.0,AVFZQ8O9-UNP2Y9Q,AP(E))A@  	 
+pulse,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,0.0,6,16,128,0.23828125,0.010768788087570485,0.008616825081151797,0.76171875,0.0,0.0, 3JKY NS6VRBN-A_,"  J
+Y J A@"
+pulse,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,4.0,6,16,128,0.265625,0.02153757617514097,0.017233650162303594,0.734375,0.0,0.0,ZWIMV28ZUI_TFI6V, @V2J    
+pulse,psk,narrowband_interference,A nearby sinusoidal interferer is injected.,8.0,6,16,128,0.2513020833333333,0.03438091805117581,0.02751046399718256,0.7486979166666666,0.0,0.0,X0L H4 ZTTH1APML,"P L H4 
+     @@ "
+pulse,psk,timing_offset,Receiver starts a few samples late.,-16.0,6,16,128,0.5143229166666666,0.07184385647737507,0.05748705791095023,0.4856770833333333,0.0,0.0,_JOIZ5ER8V6G3AGX,0^�fa��h�ݨ�%)�
+pulse,psk,timing_offset,Receiver starts a few samples late.,-12.0,6,16,128,0.5403645833333334,0.05399486978909818,0.043204894039027705,0.4596354166666667,0.0,0.0,P134KQTMTMVT375K,"Ed�,ɲ��X^
+"
+pulse,psk,timing_offset,Receiver starts a few samples late.,-8.0,6,16,128,0.5846354166666666,0.04672284332681035,0.03738606099101122,0.4153645833333333,0.0,0.0,7RIONV7R2TKK 8PU,G��1�a���
+pulse,psk,timing_offset,Receiver starts a few samples late.,-4.0,6,16,128,0.6380208333333334,0.03446956689119646,0.027581397842467024,0.3619791666666667,0.0,0.0,P6GOPB4ORVPNDLO1,"""��/�Ȱ0�	�"""
+pulse,psk,timing_offset,Receiver starts a few samples late.,0.0,6,16,128,0.671875,0.04163410185773196,0.03331421978049814,0.328125,0.0,0.0,Z1OL6IR0PB1H0IE8,"�$�ˤ��,�E�H�"
+pulse,psk,timing_offset,Receiver starts a few samples late.,4.0,6,16,128,0.63671875,0.03689287172849248,0.029520445554380898,0.36328125,0.0,0.0,98KY4L7CA4J5KA9H,� $�ˣ��   � @ 
+pulse,psk,timing_offset,Receiver starts a few samples late.,8.0,6,16,128,0.6106770833333334,0.027694917648219623,0.02216054945746934,0.3893229166666667,0.0,0.0,VNP444PBMGY594G-,� %��Ɂ�0� @  

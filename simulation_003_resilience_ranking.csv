@@ -1,0 +1,8 @@
+rank,waveform,modulation,stress_profiles_tested,thresholds_reached,not_reached_count,median_threshold_snr_db,best_threshold_snr_db,worst_reached_threshold_snr_db,total_usable_snr_points,average_ber_all_conditions,average_success_rate_all_conditions
+1,chirp,psk,7,5,2,-8.0,-12.0,-8.0,27,0.22066326530612246,0.5612244897959184
+2,sine,psk,7,5,2,-8.0,-12.0,-8.0,26,0.1992718962585034,0.5680272108843537
+3,square,psk,7,5,2,-8.0,-8.0,-8.0,25,0.18805803571428573,0.5476190476190476
+4,triangle,psk,7,5,2,-8.0,-8.0,-8.0,25,0.202859268707483,0.5544217687074829
+5,square,fsk,7,5,2,-4.0,-8.0,-4.0,21,0.10964073129251702,0.46258503401360546
+6,chirp,fsk,7,5,2,-4.0,-4.0,-4.0,20,0.10788690476190475,0.45578231292517
+7,pulse,psk,7,0,7,not_reached,not_reached,not_reached,0,0.3206579506802721,0.0

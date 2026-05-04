@@ -1,29 +1,38 @@
-# Simulation 002 Summary
+# Simulation 003 Summary
 
-Noise tolerance ranking for GreyNOC wave information carriers.
+Statistical validation and channel stress testing for GreyNOC wave carriers.
 
-Message: `GREYNOC WAVE TEST`
-SNR sweep: `-30.0 dB` to `30.0 dB`
-Trials per SNR point: `3`
+SNR sweep: `-16.0 dB` to `8.0 dB`
+Trials per SNR point: `6`
+Random payload length: `16` characters
 Usable BER threshold: `0.01`
+Reliability threshold: `0.8`
 
-## Top carriers
+## Overall resilience ranking
 
-| Rank | Waveform | Modulation | Usable threshold SNR | Avg BER | Worst BER |
+| Rank | Waveform | Modulation | Profiles passed | Median threshold | Avg BER |
 |---:|---|---|---:|---:|---:|
-| 1 | chirp | PSK | -12.0 | 0.06191 | 0.37010 |
-| 2 | triangle | PSK | -12.0 | 0.06981 | 0.43382 |
-| 3 | square | PSK | -10.0 | 0.06602 | 0.37010 |
-| 4 | gaussian_pulse | PSK | -10.0 | 0.06618 | 0.40931 |
-| 5 | sine | PSK | -10.0 | 0.06697 | 0.39461 |
-| 6 | sawtooth | PSK | -8.0 | 0.08523 | 0.39461 |
-| 7 | chirp | FSK | -8.0 | 0.11385 | 0.49020 |
-| 8 | square | FSK | -8.0 | 0.11638 | 0.51471 |
-| 9 | gaussian_pulse | FSK | -6.0 | 0.11591 | 0.48039 |
-| 10 | triangle | FSK | -6.0 | 0.11820 | 0.49510 |
+| 1 | chirp | PSK | 5/7 | -8.0 | 0.22066 |
+| 2 | sine | PSK | 5/7 | -8.0 | 0.19927 |
+| 3 | square | PSK | 5/7 | -8.0 | 0.18806 |
+| 4 | triangle | PSK | 5/7 | -8.0 | 0.20286 |
+| 5 | square | FSK | 5/7 | -4.0 | 0.10964 |
+| 6 | chirp | FSK | 5/7 | -4.0 | 0.10789 |
+| 7 | pulse | PSK | 0/7 | not_reached | 0.32066 |
+
+## Best carrier by stress profile
+
+| Stress profile | Best carrier | Threshold |
+|---|---|---:|
+| attenuation | sine / PSK | -12.0 |
+| baseline_awgn | chirp / PSK | -12.0 |
+| frequency_drift | chirp / FSK | not_reached |
+| multipath_echo | sine / PSK | -8.0 |
+| narrowband_interference | chirp / PSK | -8.0 |
+| phase_jitter | chirp / PSK | -12.0 |
+| timing_offset | square / FSK | not_reached |
 
 ## Interpretation
 
-Lower usable threshold SNR is better. A carrier that remains usable at -20 dB is more resilient than one that only becomes usable at +4 dB.
-
-The ranking prioritizes the lowest usable threshold first, then the number of usable SNR points, then average BER across the full sweep.
+Simulation 003 is meant to verify whether Simulation 002 rankings survive repeated randomized payloads and more realistic channel distortions.
+A strong carrier should pass many stress profiles, maintain a low median usable SNR threshold, and keep average BER low across all conditions.
