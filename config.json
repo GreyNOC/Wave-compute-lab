@@ -1,0 +1,31 @@
+{
+  "sample_rate": 8000,
+  "bit_rate": 100,
+  "carrier_frequency": 800.0,
+  "fsk_delta": 220.0,
+  "duration_padding_bits": 0,
+  "snr_db_values": [
+    -5.0,
+    0.0,
+    5.0,
+    10.0,
+    15.0,
+    20.0
+  ],
+  "seed": 42,
+  "message": "GREYNOC WAVE TEST",
+  "waveforms": [
+    "sine",
+    "square",
+    "triangle",
+    "sawtooth",
+    "pulse",
+    "chirp",
+    "gaussian_pulse"
+  ],
+  "modulation_modes": [
+    "ask",
+    "fsk",
+    "psk"
+  ]
+}
