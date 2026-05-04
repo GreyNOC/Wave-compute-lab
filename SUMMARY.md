@@ -1,41 +1,52 @@
-# Simulation 006 Summary
+# Simulation 007 Summary
 
-Pilot-symbol tracking for continuous receiver lock in GreyNOC wave carriers.
+Pilot-overhead optimization for GreyNOC wave carriers.
 
 SNR sweep: `-4.0 dB` to `8.0 dB`
-Trials per SNR point: `2`
+Trials per SNR point: `1`
 Random payload length: `16` characters
-Preamble length: `16` bits
-Pilot length: `8` bits
-Payload chunk size: `32` bits
-Estimated sync overhead: `40` bits per `128` payload bits
-Pilot drift search: `-800.0 ppm` to `800.0 ppm`
+Overhead variants tested: `12`
 Usable BER threshold: `0.01`
+Optimization target average BER: `0.01`
 
-## Top pilot-tracking carrier
+## Best efficient configuration
 
-Top carrier: `sine + PSK`
+Carrier: `chirp + PSK`
+Preamble: `8` bits
+Pilot: `4` bits
+Payload chunk: `32` bits
+Overhead ratio: `0.135`
+Average BER: `0.00000`
 Profiles passed: `5/5`
 Median threshold: `-4.0`
-Average BER: `0.00684`
-Average pilot match rate: `1.000`
+Meets target: `True`
 
-## Overall pilot-tracking ranking
+Configurations meeting target: `7`
 
-| Rank | Waveform | Modulation | Profiles passed | Median threshold | Avg BER | Pilot match | Avg freq error ppm |
-|---:|---|---|---:|---:|---:|---:|---:|
-| 1 | sine | PSK | 5/5 | -4.0 | 0.00684 | 1.000 | 147.5 |
-| 2 | square | PSK | 5/5 | -4.0 | 0.00684 | 1.000 | 145.0 |
-| 3 | chirp | PSK | 5/5 | 0.0 | 0.00664 | 1.000 | 135.0 |
-| 4 | triangle | PSK | 4/5 | -4.0 | 0.01387 | 1.000 | 152.5 |
-| 5 | chirp | FSK | 2/5 | -4.0 | 0.03848 | 1.000 | 355.0 |
+## Top 10 efficiency ranking
 
-## Pilot receiver impact
+| Rank | Carrier | Preamble | Pilot | Chunk | Overhead | Avg BER | Profiles passed | Meets target |
+|---:|---|---:|---:|---:|---:|---:|---:|---|
+| 1 | chirp / PSK | 8 | 4 | 32 | 0.135 | 0.00000 | 5/5 | True |
+| 2 | chirp / PSK | 16 | 4 | 32 | 0.179 | 0.00000 | 5/5 | True |
+| 3 | chirp / PSK | 8 | 8 | 32 | 0.200 | 0.00104 | 5/5 | True |
+| 4 | sine / PSK | 8 | 8 | 32 | 0.200 | 0.00156 | 5/5 | True |
+| 5 | square / PSK | 8 | 8 | 32 | 0.200 | 0.00521 | 5/5 | True |
+| 6 | chirp / PSK | 16 | 8 | 32 | 0.238 | 0.00000 | 5/5 | True |
+| 7 | sine / PSK | 16 | 8 | 32 | 0.238 | 0.00313 | 5/5 | True |
+| 8 | square / PSK | 8 | 4 | 32 | 0.135 | 0.01875 | 5/5 | False |
+| 9 | sine / PSK | 16 | 4 | 32 | 0.179 | 0.01719 | 5/5 | False |
+| 10 | square / PSK | 8 | 4 | 64 | 0.086 | 0.12865 | 4/5 | False |
 
-Average BER improvement versus preamble-only tracking: `0.34488`
-Average drift-profile BER improvement versus preamble-only tracking: `0.43110`
+## Best configuration by carrier
+
+| Carrier | Preamble | Pilot | Chunk | Overhead | Avg BER | Profiles passed |
+|---|---:|---:|---:|---:|---:|---:|
+| chirp / PSK | 8 | 4 | 32 | 0.135 | 0.00000 | 5/5 |
+| sine / PSK | 8 | 8 | 32 | 0.200 | 0.00156 | 5/5 |
+| square / PSK | 8 | 8 | 32 | 0.200 | 0.00521 | 5/5 |
 
 ## Interpretation
 
-Simulation 006 adds known pilot markers between payload chunks.
-The receiver scores both the preamble and the pilots, which tests whether continuous sync markers can keep the decoder locked after the start of the message.
+Simulation 007 asks how much synchronization overhead can be removed while preserving the Simulation 006 pilot-tracking breakthrough.
+The ranking favors configurations that pass all stress profiles, keep BER low, and use the lowest overhead ratio.

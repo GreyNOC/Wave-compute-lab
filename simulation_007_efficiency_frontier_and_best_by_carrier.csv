@@ -1,0 +1,7 @@
+row_type,rank,variant_id,waveform,modulation,preamble_length_bits,pilot_length_bits,payload_chunk_bits,stress_profiles_tested,profiles_passed,not_reached_count,median_threshold_snr_db,best_threshold_snr_db,total_usable_snr_points,average_ber_all_conditions,average_accuracy_all_conditions,average_pilot_match_rate_all_conditions,average_abs_frequency_error_ppm,mean_overhead_ratio,mean_sync_bits,mean_frame_bit_count,efficiency_score,meets_target
+frontier,25,3,sine,psk,8,4,128,5,1,4,-4.0,-4.0,3,0.3473958333333333,0.6526041666666667,1.0,420.0,0.0588235294117647,8.0,136.0,1.3503370098039216,False
+frontier,14,2,sine,psk,8,4,64,5,3,2,-4.0,-4.0,9,0.09895833333333334,0.9010416666666667,1.0,180.0,0.0857142857142857,12.0,140.0,0.6032440476190476,False
+frontier,1,1,chirp,psk,8,4,32,5,5,0,-4.0,-4.0,15,0.0,1.0,1.0,40.0,0.13513513513513514,20.0,148.0,0.006756756756756757,True
+best_by_carrier,1,1,chirp,psk,8,4,32,5,5,0,-4.0,-4.0,15,0.0,1.0,1.0,40.0,0.13513513513513514,20.0,148.0,0.006756756756756757,True
+best_by_carrier,4,4,sine,psk,8,8,32,5,5,0,-4.0,-4.0,14,0.0015625,0.9984375,1.0,60.0,0.20000000000000004,32.0,160.0,0.011562500000000002,True
+best_by_carrier,5,4,square,psk,8,8,32,5,5,0,-4.0,-4.0,13,0.005208333333333334,0.9947916666666667,1.0,60.0,0.20000000000000004,32.0,160.0,0.015208333333333336,True

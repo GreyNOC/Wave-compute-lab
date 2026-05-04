@@ -6,7 +6,6 @@
   "duration_padding_bits": 0,
   "snr_db_values": [
     -4.0,
-    0.0,
     4.0,
     8.0
   ],
@@ -28,14 +27,6 @@
   ],
   "candidates": [
     {
-      "waveform": "chirp",
-      "modulation": "fsk"
-    },
-    {
-      "waveform": "chirp",
-      "modulation": "psk"
-    },
-    {
       "waveform": "sine",
       "modulation": "psk"
     },
@@ -44,14 +35,76 @@
       "modulation": "psk"
     },
     {
-      "waveform": "triangle",
+      "waveform": "chirp",
       "modulation": "psk"
+    }
+  ],
+  "overhead_variants": [
+    {
+      "preamble_length_bits": 8,
+      "pilot_length_bits": 4,
+      "payload_chunk_bits": 32
+    },
+    {
+      "preamble_length_bits": 8,
+      "pilot_length_bits": 4,
+      "payload_chunk_bits": 64
+    },
+    {
+      "preamble_length_bits": 8,
+      "pilot_length_bits": 4,
+      "payload_chunk_bits": 128
+    },
+    {
+      "preamble_length_bits": 8,
+      "pilot_length_bits": 8,
+      "payload_chunk_bits": 32
+    },
+    {
+      "preamble_length_bits": 8,
+      "pilot_length_bits": 8,
+      "payload_chunk_bits": 64
+    },
+    {
+      "preamble_length_bits": 8,
+      "pilot_length_bits": 8,
+      "payload_chunk_bits": 128
+    },
+    {
+      "preamble_length_bits": 16,
+      "pilot_length_bits": 4,
+      "payload_chunk_bits": 32
+    },
+    {
+      "preamble_length_bits": 16,
+      "pilot_length_bits": 4,
+      "payload_chunk_bits": 64
+    },
+    {
+      "preamble_length_bits": 16,
+      "pilot_length_bits": 4,
+      "payload_chunk_bits": 128
+    },
+    {
+      "preamble_length_bits": 16,
+      "pilot_length_bits": 8,
+      "payload_chunk_bits": 32
+    },
+    {
+      "preamble_length_bits": 16,
+      "pilot_length_bits": 8,
+      "payload_chunk_bits": 64
+    },
+    {
+      "preamble_length_bits": 16,
+      "pilot_length_bits": 8,
+      "payload_chunk_bits": 128
     }
   ],
   "stress_profiles": [
     {
       "name": "baseline_awgn",
-      "description": "AWGN only; verifies pilots do not hurt a clean channel.",
+      "description": "AWGN only; verifies lower overhead does not hurt a clean channel.",
       "attenuation": 1.0,
       "frequency_drift_ppm": 0.0,
       "phase_jitter_std": 0.0,
@@ -105,71 +158,28 @@
       "timing_offset_samples": 5
     }
   ],
-  "trials_per_snr": 2,
+  "trials_per_snr": 1,
   "random_payload_length": 16,
   "usable_ber_threshold": 0.01,
   "reliability_threshold": 0.8,
-  "preamble_bits": [
-    1,
-    0,
-    1,
-    0,
-    1,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    1
-  ],
-  "pilot_bits": [
-    1,
-    1,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0
-  ],
-  "payload_chunk_bits": 32,
   "pilot_search": {
     "timing_offsets": [
-      -5,
-      -4,
       -3,
       -2,
       -1,
       0,
       1,
       2,
-      3,
-      4,
-      5
+      3
     ],
     "frequency_correction_ppm": [
       -800.0,
-      -700.0,
-      -600.0,
-      -500.0,
       -400.0,
-      -300.0,
-      -200.0,
-      -100.0,
       0.0,
-      100.0,
-      200.0,
-      300.0,
       400.0,
-      500.0,
-      600.0,
-      700.0,
       800.0
     ]
-  }
+  },
+  "max_allowed_average_ber": 0.01,
+  "max_allowed_not_reached_profiles": 0
 }
