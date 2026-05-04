@@ -1,31 +1,37 @@
-# Simulation 004 Summary
+# Simulation 005 Summary
 
-Synchronization and recovery testing for GreyNOC wave carriers.
+Adaptive frequency drift recovery testing for GreyNOC wave carriers.
 
-SNR sweep: `-8.0 dB` to `8.0 dB`
-Trials per SNR point: `2`
+SNR sweep: `-4.0 dB` to `8.0 dB`
+Trials per SNR point: `1`
 Random payload length: `16` characters
 Preamble length: `16` bits
+Adaptive drift search: `-800.0 ppm` to `800.0 ppm`
 Usable BER threshold: `0.01`
-Reliability threshold: `0.8`
 
-## Overall ranking after synchronization recovery
+## Top adaptive carrier
 
-| Rank | Waveform | Modulation | Profiles passed | Median threshold | Avg BER | Preamble match |
-|---:|---|---|---:|---:|---:|---:|
-| 1 | chirp | PSK | 2/4 | -4.0 | 0.26348 | 1.000 |
-| 2 | sine | PSK | 2/4 | -2.0 | 0.20078 | 1.000 |
-| 3 | triangle | PSK | 2/4 | -2.0 | 0.20273 | 1.000 |
-| 4 | chirp | FSK | 2/4 | 0.0 | 0.06445 | 0.975 |
-| 5 | square | PSK | 1/4 | -8.0 | 0.22734 | 1.000 |
-| 6 | pulse | PSK | 0/4 | not_reached | 0.32051 | 0.000 |
+Top carrier: `chirp + FSK`
+Profiles passed: `2/5`
+Median threshold: `2.0`
+Average BER: `0.06328`
 
-## Synchronization impact
+## Overall adaptive ranking
 
-Recovered not-reached cases: `3`
-Average numeric threshold improvement: `0.67 dB`
+| Rank | Waveform | Modulation | Profiles passed | Median threshold | Avg BER | Preamble match | Avg freq error ppm |
+|---:|---|---|---:|---:|---:|---:|---:|
+| 1 | chirp | FSK | 2/5 | 2.0 | 0.06328 | 1.000 | 405.0 |
+| 2 | sine | PSK | 1/5 | -4.0 | 0.38359 | 1.000 | 420.0 |
+| 3 | triangle | PSK | 1/5 | -4.0 | 0.39883 | 1.000 | 420.0 |
+| 4 | square | PSK | 1/5 | -4.0 | 0.42500 | 1.000 | 465.0 |
+| 5 | chirp | PSK | 1/5 | -4.0 | 0.44844 | 1.000 | 435.0 |
+
+## Adaptive receiver impact
+
+Average BER improvement versus coarse synchronization: `-0.00375`
+Average drift-profile BER improvement versus coarse synchronization: `-0.00469`
 
 ## Interpretation
 
-Simulation 004 adds a known preamble and a receiver-side search over timing offsets and frequency-drift corrections.
-The purpose is to test whether the major Simulation 003 failures were carrier failures or receiver synchronization failures.
+Simulation 005 replaces the coarse three-value frequency correction from Simulation 004 with a fine-grained preamble-scored drift sweep.
+The goal is to determine whether frequency drift failures are receiver-correction failures rather than carrier failures.

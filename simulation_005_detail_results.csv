@@ -1,0 +1,302 @@
+waveform,modulation,receiver_mode,stress_profile,actual_frequency_drift_ppm,actual_timing_offset_samples,snr_db,trials,payload_length,payload_bit_count,preamble_bit_count,mean_bit_error_rate,std_bit_error_rate,ci95_bit_error_rate,mean_accuracy,success_rate,perfect_rate,mean_preamble_ber,preamble_match_rate,median_detected_offset_samples,median_detected_frequency_correction_ppm,mean_abs_frequency_correction_error_ppm,sample_payload,sample_decoded_text
+chirp,psk,raw_no_sync,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,HBRPOIG8F-1CBFNO,HBRPOIG8F-1CBFNO
+chirp,psk,coarse_sync,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,6_B9M80O2-RAK1VR,6_B9M80O2-RAK1VR
+chirp,psk,adaptive_drift,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,JNVGFYGWW_QC38HY,JNVGFYGWW_QC38HY
+chirp,psk,raw_no_sync,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,F9SX MECOSFOGYR3,F9SX MECOSFOGYR3
+chirp,psk,coarse_sync,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,XKXWNRE_K8PK3YR9,XKXWNRE_K8PK3YR9
+chirp,psk,adaptive_drift,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,OUDOCUZREN UN5Z3,OUDOCUZREN UN5Z3
+chirp,psk,raw_no_sync,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,JQIP98Q-1-ZXOI65,JQIP98Q-1-ZXOI65
+chirp,psk,coarse_sync,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,FDHJK1_EYY_37Q9A,FDHJK1_EYY_37Q9A
+chirp,psk,adaptive_drift,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,H8RVHS1K3AQ6L6GT,H8RVHS1K3AQ6L6GT
+chirp,psk,raw_no_sync,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,6_MJXK87A_U5BHXT,6_MJXK87A_U5BHXT
+chirp,psk,coarse_sync,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,PDP FF5E8II49KQ7,PDP FF5E8II49KQ7
+chirp,psk,adaptive_drift,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,_1N8MTZX272HPOEV,_1N8MTZX272HPOEV
+chirp,psk,raw_no_sync,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,B-9O-OAEDOECVE6P,B-9O-��������ɯ
+chirp,psk,coarse_sync,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,R5N8I  4P40MGG1W,R5N8ig�˯�ϲ��Ψ
+chirp,psk,adaptive_drift,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,103DGDZVGPMM82I1,103DGΥ������Ͷ�
+chirp,psk,raw_no_sync,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,LR3PE29GD8AFPK05,LR3PDƸ�Ǿ�����
+chirp,psk,coarse_sync,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.625,0.0,0.0,0.375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,4NZDKYAYQ3S195JM,4NZDK_���̬��ʵ�
+chirp,psk,adaptive_drift,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,SND-8DUDD-467KD6,SND-8X������ȴ��
+chirp,psk,raw_no_sync,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,FLE_EPZH P-_CF0-,FLE_E[��߯Ҡ����
+chirp,psk,coarse_sync,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.65625,0.0,0.0,0.34375,0.0,0.0,0.0,1.0,0.0,0.0,450.0, 7UQNUPQZIT3UEA3, 7UQN{�����̪���
+chirp,psk,adaptive_drift,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.65625,0.0,0.0,0.34375,0.0,0.0,0.0,1.0,0.0,0.0,450.0, GE8N6QIWEPXSK28, GE8N.���������
+chirp,psk,raw_no_sync,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,T7A9TGIQHG9JRS_N,T7A9T@����Ƶ����
+chirp,psk,coarse_sync,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.65625,0.0,0.0,0.34375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,VNQ65QDF1RCAVIQK,VNQ65F��έ������
+chirp,psk,adaptive_drift,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.65625,0.0,0.0,0.34375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,2919AHEJ8CX-9J1I,2919A��Ǽ��Ƶζ
+chirp,psk,raw_no_sync,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,CTXCWNPGW90JPKL0,CTXCQ]?���ϵ����
+chirp,psk,coarse_sync,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.640625,0.0,0.0,0.359375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,BLV0PRKGYC4OM3WT,BLV0PŸ���˰�̨�
+chirp,psk,adaptive_drift,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.6875,0.0,0.0,0.3125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,OOBMZVRERW6Z8VBH,OOBm[�����ɥǩ��
+chirp,psk,raw_no_sync,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.6328125,0.0,0.0,0.3671875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,QL-QCG_1WU1_6HY ,QL-QCK Ψ�Πɷ��
+chirp,psk,coarse_sync,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.6328125,0.0,0.0,0.3671875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,MQC1A78MX1EVUHT6,MQC1A1ǒ�κ�����
+chirp,psk,adaptive_drift,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,T0UZS9IM0YL TZ9A,T0UZS>��Ϧ�߫�ƾ
+chirp,psk,raw_no_sync,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,TSN1-_U322N64KFS,TSN1/\���ͱ�˴��
+chirp,psk,coarse_sync,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.6640625,0.0,0.0,0.3359375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,6VFPTOMJBCP4E30 ,6VFPUd�����˺���
+chirp,psk,adaptive_drift,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.6640625,0.0,0.0,0.3359375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,MY5ZPJAG1OL73D9P,MY5ZP$��ΰ��̻Ư
+chirp,psk,raw_no_sync,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.6640625,0.0,0.0,0.3359375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,H3I379_U26192K42,H3I37n������ʹ��
+chirp,psk,coarse_sync,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,QPR75PR2ESPRVU8F,QPR75W�ͺ�����ǹ
+chirp,psk,adaptive_drift,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.65625,0.0,0.0,0.34375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,IJOYJNE00V830DN0,IJOYJY��ϩ��ϻ��
+chirp,psk,raw_no_sync,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.5625,0.0,0.0,0.4375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,Y-B Y4AWTY088_O5,Y-Ꮶ˾����E8_O5
+chirp,psk,coarse_sync,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,OR15BYVZK3I8BZ- ,ORzʽ����̶�BZ- 
+chirp,psk,adaptive_drift,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,BF1I3LDQYUN3UVYR,BL�̳�������VYR
+chirp,psk,raw_no_sync,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.5625,0.0,0.0,0.4375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,0QF4B8DWOECBPMBJ,0Qa˽ǻ�����PMBJ
+chirp,psk,coarse_sync,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.5546875,0.0,0.0,0.4453125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,PI4H N3QXK__HKTG,PI�̮߱����HKTG
+chirp,psk,adaptive_drift,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.53125,0.0,0.0,0.46875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,-BT YZME-PGT_H C,-BWߦ���ү��_H C
+chirp,psk,raw_no_sync,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.5625,0.0,0.0,0.4375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,W81XE6VA05G1X3J1,W86��ɩ��ʸ�X3J1
+chirp,psk,coarse_sync,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,L7R8431-RUPFR2P3,L7A����ҭ���R2P3
+chirp,psk,adaptive_drift,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.546875,0.0,0.0,0.453125,0.0,0.0,0.0,1.0,0.0,0.0,750.0, YVB5UL5NWQVR_R9, Y[�ʪ�ʱ���R_R9
+chirp,psk,raw_no_sync,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,A7MFP059P452BFSO,A7V����Ư���BFSO
+chirp,psk,coarse_sync,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.546875,0.0,0.0,0.453125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,ZPT-X497W19VW3RT,ZPOҧ��Ȩ�ƖW3RT
+chirp,psk,adaptive_drift,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,QOHMUH8LMN4R-7_S,QO���ǳ��˶-7_S
+chirp,psk,raw_no_sync,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.171875,0.0,0.0,0.828125,0.0,0.0,1.0,0.0,0.0,0.0,450.0,GMSOXLTA8IRCD9SI,���X�TA8IRCD9SA
+chirp,psk,coarse_sync,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.5,0.0,0.0,0.5,0.0,0.0,0.0,1.0,-2.0,-450.0,900.0,5GA S442VLDQ4HEZ,5GA d��ͩ���EXEZ
+chirp,psk,adaptive_drift,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.5546875,0.0,0.0,0.4453125,0.0,0.0,0.0,1.0,-2.0,-300.0,750.0,5E DJJ TFPH90__O,5E DJL�����Ϡ�_
+chirp,psk,raw_no_sync,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.203125,0.0,0.0,0.796875,0.0,0.0,1.0,0.0,0.0,0.0,450.0,7Y22T-1T DGNNQFK,Ȧ��T-1T DGNNQFK
+chirp,psk,coarse_sync,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.3125,0.0,0.0,0.6875,0.0,0.0,0.0,1.0,-2.0,0.0,450.0,PL9EKA02_4SCOSS3,PL9EKA02_4Y�����
+chirp,psk,adaptive_drift,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.3046875,0.0,0.0,0.6953125,0.0,0.0,0.0,1.0,-2.0,0.0,450.0,EOQ-M1H8OJRJEDKT,EOQ-M1H8OJ;2���
+chirp,psk,raw_no_sync,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.1953125,0.0,0.0,0.8046875,0.0,0.0,1.0,0.0,0.0,0.0,450.0,_ S2H3TZR6852F_C,�߯~H3TZR6852F_C
+chirp,psk,coarse_sync,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.296875,0.0,0.0,0.703125,0.0,0.0,0.0,1.0,-2.0,0.0,450.0,1U_QBFO -BR CL47,1U_QBFO -B{<���
+chirp,psk,adaptive_drift,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.328125,0.0,0.0,0.671875,0.0,0.0,0.0,1.0,-2.0,0.0,450.0,2RL-15F4W0VUGKV0,2RL-15F4W0O*����
+chirp,psk,raw_no_sync,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.21875,0.0,0.0,0.78125,0.0,0.0,1.0,0.0,0.0,0.0,450.0,5SZ9C3FUQUHZ6A83,ʬ��C3FUQUHZ6A83
+chirp,psk,coarse_sync,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.3046875,0.0,0.0,0.6953125,0.0,0.0,0.0,1.0,-2.0,0.0,450.0,0DM7X52DNR9IS25H,0DM7X52DNR8���ʷ
+chirp,psk,adaptive_drift,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.296875,0.0,0.0,0.703125,0.0,0.0,0.0,1.0,-2.0,0.0,450.0,B_PKT9A90FOH3HJ5,B_PKT9A90FO�̷��
+sine,psk,raw_no_sync,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,S6R044P39JYM_6IE,S6R044P39JYM_6IE
+sine,psk,coarse_sync,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,R0V6RAST--5J284W,R0V6RAST--5J284W
+sine,psk,adaptive_drift,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,V98Y3UMP YO0CU4Y,V98Y3UMP YO0CU4Y
+sine,psk,raw_no_sync,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,YJ5CI6-VG2G73AJ0,YJ5CI6-VG2G73AJ0
+sine,psk,coarse_sync,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,JE4QVZFV8YU58CEP,JE4QVZFV8YU58CEP
+sine,psk,adaptive_drift,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,SOF1GG2KTBCUDSWX,SOF1GG2KTBCUDSWX
+sine,psk,raw_no_sync,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,1JP70 LKLFYP5-JO,1JP70 LKLFYP5-JO
+sine,psk,coarse_sync,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,3Q3QA3S8KE2W-T1Q,3Q3QA3S8KE2W-T1Q
+sine,psk,adaptive_drift,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,3TMY4GPY W SSBZR,3TMY4GPY W SSBZR
+sine,psk,raw_no_sync,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,A D_5SO_WOMQIGCT,A D_5SO_WOMQIGCT
+sine,psk,coarse_sync,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,2C-XIFSU0LMI8X76,2C-XIFSU0LMI8X76
+sine,psk,adaptive_drift,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,RKQ4SVH3EJOZ9XFZ,RKQ4SVH3EJOZ9XFZ
+sine,psk,raw_no_sync,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.6015625,0.0,0.0,0.3984375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,AQ8H3XQ-YXGO4B9U,AQ8H3P�Ҧ���˽ƪ
+sine,psk,coarse_sync,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,OE3T0HICCT5HGP8I,OE3T0�\���ʷ��Ƕ
+sine,psk,adaptive_drift,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,Y3X80-J0G50RCXN2,Y3X82-BǸ�ϭ����
+sine,psk,raw_no_sync,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,2PXGX8WDZRMH3FN_,2PXGX8b{����̹��
+sine,psk,coarse_sync,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,BDVPI NE9N-NOVJ_,BDVPI �Ʊұ����
+sine,psk,adaptive_drift,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.546875,0.0,0.0,0.453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,ARJI8QLHBIAWP-UB,ARJI8QN#�����Ҫ�
+sine,psk,raw_no_sync,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,LQDI07HE42X6-G26,LQDI07Y��ͧ�Ҹ��
+sine,psk,coarse_sync,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.59375,0.0,0.0,0.40625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,OC7T3BD4Z1G52EFU,OC7T3B�˥θ�ͺ��
+sine,psk,adaptive_drift,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.546875,0.0,0.0,0.453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,_JEIR-9UY_7S36_1,_JEIR-9j��Ȭ�ɠ�
+sine,psk,raw_no_sync,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,GH9N12O0V3Z0GU1U,GH9N12jO�̥ϸ�Ϊ
+sine,psk,coarse_sync,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,QXJ4EFFF1GXI9D-9,QXJ4EFE�θ��ƻ��
+sine,psk,adaptive_drift,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.5625,0.0,0.0,0.4375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,9VH0W1DS_TWG 6NJ,9VH0W1E젫���ɱ�
+sine,psk,raw_no_sync,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.59375,0.0,0.0,0.40625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,4OGW9XHR O199B_R,"4OGW9Yg߰��ƽ��"
+sine,psk,coarse_sync,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.5625,0.0,0.0,0.4375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,BLRTVWALJ ZEJBF7,BLRTVW?�ߥ�����
+sine,psk,adaptive_drift,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,NY03VKXTU _FDJKD,NY03Vi(�ߠ�����
+sine,psk,raw_no_sync,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,FR215_20RN6HW1HS,FR215_.���ɷ�η�
+sine,psk,coarse_sync,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.5546875,0.0,0.0,0.4453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,-57TCOZ_DANTNIQS,-57TCOB$;�������
+sine,psk,adaptive_drift,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,UHA51LIY8O69WEZC,UHA51LJ�ǰ�ƨ���
+sine,psk,raw_no_sync,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,1B3EU 1 Z0SHZBUK,1B3EU 6ߥϬ�����
+sine,psk,coarse_sync,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,3XF1GP1-Z7FZTVOV,3XF1GPҥȹ�����
+sine,psk,adaptive_drift,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,KE6H76MWWJPGJQML,KE6H76I���������
+sine,psk,raw_no_sync,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.5625,0.0,0.0,0.4375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,_JEL53 -2 UUJ2E4,"_JEL53""��ߪ��ͺ�"
+sine,psk,coarse_sync,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,2TR-DW6ET32CDXSE,2TR-DW5���ͼ����
+sine,psk,adaptive_drift,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,F_6Y3-9C2 MU_46J,F_6Y3-���߲���ɵ
+sine,psk,raw_no_sync,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.6796875,0.0,0.0,0.3203125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,D2GVF6LCP2277KXX,D2F�ɳ�����ȿx
+sine,psk,coarse_sync,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.6328125,0.0,0.0,0.3671875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,SY0V_DVEVG9YSQ_J,SY0I������Ʀ��J
+sine,psk,adaptive_drift,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.65625,0.0,0.0,0.34375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,VF-JWTZI_FT9YVI7,VF��������Ʀ�I
+sine,psk,raw_no_sync,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.6796875,0.0,0.0,0.3203125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,F16XBXTLNV5MOIJE,F12������ʲ��jE
+sine,psk,coarse_sync,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,750.0,SG687CVI_YJKLK2C,SG0cH���������2C
+sine,psk,adaptive_drift,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,750.0,0XP2S2O8PT4MX 23,0XP��Ͱǯ�˲��23
+sine,psk,raw_no_sync,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,750.0,SY670KM_IQD4X9G7,SY2ϴ�����˧�G7
+sine,psk,coarse_sync,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.6640625,0.0,0.0,0.3359375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,HSFKR26J1FO2WB0D,HSF���ɵι�ͨ�0D
+sine,psk,adaptive_drift,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,750.0,Z6XPYFXOBUGVJICS,Z6YG�����������S
+sine,psk,raw_no_sync,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.6640625,0.0,0.0,0.3359375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,4I42AFBQNJ9_71HS,4I5m������Ơ��HS
+sine,psk,coarse_sync,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.640625,0.0,0.0,0.359375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,PTHDP03EH5_8B6 P,PTH��̺�ʠǽ� P
+sine,psk,adaptive_drift,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.65625,0.0,0.0,0.34375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,JS1AWP 0LF7XE786,JS1~���ϳ�ȧ��86
+sine,psk,raw_no_sync,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.4453125,0.0,0.0,0.5546875,0.0,0.0,1.0,0.0,0.0,0.0,450.0,69BY4CYXQBWEWPG-,�ƽ�˼�QBWEWPG-
+sine,psk,coarse_sync,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.140625,0.0,0.0,0.859375,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,VICW8VL34LIE3CSM,VICW8VL34LIE:Ph�
+sine,psk,adaptive_drift,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.1328125,0.0,0.0,0.8671875,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,CMCUT6Z84QCMSWDV,CMCUT6Z84QCMQ�x�
+sine,psk,raw_no_sync,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.40625,0.0,0.0,0.59375,0.0,0.0,1.0,0.0,0.0,0.0,450.0,RHX1Z2YVL55X7RF1,���Υ��vL55X7RF1
+sine,psk,coarse_sync,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.1875,0.0,0.0,0.8125,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,F1_L8SUGFUST2_1K,F1_L8SUGFUSV3`δ
+sine,psk,adaptive_drift,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.15625,0.0,0.0,0.84375,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,2W2CW1RDEZX6KBJ_,2W2CW1RDEZX6K]��
+sine,psk,raw_no_sync,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.421875,0.0,0.0,0.578125,0.0,0.0,1.0,0.0,0.0,0.0,450.0,2CIEPXXY C_J2XX2,ͼ�����Y C_J2XX2
+sine,psk,coarse_sync,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.140625,0.0,0.0,0.859375,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,E I7XZURPHBL57Y9,E I7XZURPHBL5.��
+sine,psk,adaptive_drift,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.1328125,0.0,0.0,0.8671875,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,HQQ2NS5MHIE2L2FU,HQQ2NS5MHIE2L3��
+sine,psk,raw_no_sync,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.4296875,0.0,0.0,0.5703125,0.0,0.0,1.0,0.0,0.0,0.0,450.0,WE98STKLX6OHMIP5,���Ǭ��LX6OHMIP5
+sine,psk,coarse_sync,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.140625,0.0,0.0,0.859375,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,BX9 X39IFETZ4700,BX9 X39IFETZ4&��
+sine,psk,adaptive_drift,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.1328125,0.0,0.0,0.8671875,0.0,0.0,0.0,1.0,-3.0,0.0,450.0, EIUE237WI9-LI16, EIUE237WI9-LON�
+square,psk,raw_no_sync,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,DH7JTKKUOW7SFQM9,DH7JTKKUOW7SFQM9
+square,psk,coarse_sync,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,RIT8F6K--JK_V CB,RIT8F6K--JK_V CB
+square,psk,adaptive_drift,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,FC QN 0B58ST4PZT,FC QN 0B58ST4PZT
+square,psk,raw_no_sync,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,3EDK2043NV_JUUWZ,3EDK2043NV_JUUWZ
+square,psk,coarse_sync,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,IX69GUP3HR2PJGDS,IX69GUP3HR2PJGDS
+square,psk,adaptive_drift,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,Y0PKU UMK5635T5B,Y0PKU UMK5635T5B
+square,psk,raw_no_sync,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,FZ63PN-WDDS5_4S8,FZ63PN-WDDS5_4S8
+square,psk,coarse_sync,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,AG1IQXZXCZD 9MX9,AG1IQXZXCZD 9MX9
+square,psk,adaptive_drift,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,SEY629RHIGZXV9XJ,SEY629RHIGZXV9XJ
+square,psk,raw_no_sync,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,M_6Z6CCCIV473J_6,M_6Z6CCCIV473J_6
+square,psk,coarse_sync,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,IUUKZT-V6685 T4B,IUUKZT-V6685 T4B
+square,psk,adaptive_drift,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,XVH0-TB_4Q- OD-4,XVH0-TB_4Q- OD-4
+square,psk,raw_no_sync,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.546875,0.0,0.0,0.453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,K7YJPC HMB2U0J0N,K7YJP��׽ͪϵϱ
+square,psk,coarse_sync,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,064DI7N9U47YUL38,064DIr�:�Ȧ����
+square,psk,adaptive_drift,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,V8WQ4MPR9TOTSN5U,V8WQ5f�������ʪ
+square,psk,raw_no_sync,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.5625,0.0,0.0,0.4375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,4W9RSH 8YZWJSCSF,4W9RSH�Ǉ�������
+square,psk,coarse_sync,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.59375,0.0,0.0,0.40625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,W2Q4NM8R9RIG-PPD,W2Q4NL�ޭ��ү��
+square,psk,adaptive_drift,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.5625,0.0,0.0,0.4375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,7OODG0V4GIA9K044,7OODE0����ƴ���
+square,psk,raw_no_sync,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,MSUSDF O8CL0LCZ5,MSUSD����ϳ���
+square,psk,coarse_sync,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.5625,0.0,0.0,0.4375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,LSCAT _GVS3875I6,LSCAT @(�����ʶ�
+square,psk,adaptive_drift,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,3RMHVK3QLAVS MLZ,3RMHVC&�����߲��
+square,psk,raw_no_sync,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.6015625,0.0,0.0,0.3984375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,16UFZGLI4UPAQYP2,16UFZBB�˪������
+square,psk,coarse_sync,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.59375,0.0,0.0,0.40625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,RVT- AQXPDH3TKZ6,RVT- @����̫���
+square,psk,adaptive_drift,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,THSXOOI4J3_X0948,THSXONB��̠�����
+square,psk,raw_no_sync,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.5546875,0.0,0.0,0.4453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,NP_F727XE HD96M ,NP_F7*�y:߷��ɲ�
+square,psk,coarse_sync,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,8JKU72HN-5F62D3I,8JKU��K3����ͻ̶
+square,psk,adaptive_drift,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.5546875,0.0,0.0,0.4453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,603 D93TBZQAN-EC,603 D}9g�%���Һ�
+square,psk,raw_no_sync,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.546875,0.0,0.0,0.453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,1WE8DE4CS0LI0XY2,1WE8DA�]�ϳ�ϧ��
+square,psk,coarse_sync,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.5546875,0.0,0.0,0.4453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,YYF8IWHL8Z7IOABT,YYF8IW@�ǥȶ����
+square,psk,adaptive_drift,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.5625,0.0,0.0,0.4375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,3818YOP3WJRMHC0B,3818[O��(�����Ͻ
+square,psk,raw_no_sync,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.5390625,0.0,0.0,0.4609375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,PNEG_C2_DPCZ2O8N,PNEG_C7�����ͰǱ
+square,psk,coarse_sync,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.5546875,0.0,0.0,0.4453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,DI6SO U _UPTJ7O0,DI6SO u� ����Ȱ�
+square,psk,adaptive_drift,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,TRD9-L195DWY7U00,TRD9-L��ʻ��Ȫ��
+square,psk,raw_no_sync,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.5546875,0.0,0.0,0.4453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,JTYL84POTJ3D9009,JTYL84Vq��̻����
+square,psk,coarse_sync,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.546875,0.0,0.0,0.453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,7IYPQNVF2XF8MDRY,7IYPQNWqͧ�ǲ���
+square,psk,adaptive_drift,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.546875,0.0,0.0,0.453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,__CEM-9N4NVTANMH,__CEM-=s˱������
+square,psk,raw_no_sync,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.6328125,0.0,0.0,0.3671875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,4P_NZP9USY38WTQX,4P_¤�ƪ�����@
+square,psk,coarse_sync,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.671875,0.0,0.0,0.328125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,653G4UNXU0C OJBQ,65#ê���ϼא� Q
+square,psk,adaptive_drift,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,750.0,9--0SJMVOY P59VQ,9-=�������߯�GV�
+square,psk,raw_no_sync,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.6796875,0.0,0.0,0.3203125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,553KWKI85L8D7CED,553$����ʳǻȽD
+square,psk,coarse_sync,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.6796875,0.0,0.0,0.3203125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,A0IOEJAN63XD45BA,A0K �����̧���@
+square,psk,adaptive_drift,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.6640625,0.0,0.0,0.3359375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,890AB7R8SB61LGG7,890&�ȭǬ��γ�g7
+square,psk,raw_no_sync,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.6796875,0.0,0.0,0.3203125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,JPM7QWRZFXZ3 POT,JPM@��������߮T
+square,psk,coarse_sync,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.6875,0.0,0.0,0.3125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,FCFZYY94DAKF51V ,FCF%���˻����� 
+square,psk,adaptive_drift,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.6953125,0.0,0.0,0.3046875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,G7CON 4RCER8 CLU,G7C���˭����ߴ�U
+square,psk,raw_no_sync,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.6796875,0.0,0.0,0.3203125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,BN-JZETK P Y8VYI,BN-����߯ߦǨ	I
+square,psk,coarse_sync,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.65625,0.0,0.0,0.34375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,F6WDG1OEV__ZUBR2,F6W�ΰ�������2
+square,psk,adaptive_drift,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.671875,0.0,0.0,0.328125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,5OW9Y1L-YFSPEFRJ,5OW�γҦ�����J
+square,psk,raw_no_sync,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.3984375,0.0,0.0,0.6015625,0.0,0.0,1.0,0.0,0.0,0.0,450.0,YJYUXGFAT2XRGIFL,�������i�:XRGIFL
+square,psk,coarse_sync,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.5625,0.0,0.0,0.4375,0.0,0.0,0.0,1.0,-3.0,-450.0,900.0,129960GBFW9F__UY,1299:0x���ƹ���
+square,psk,adaptive_drift,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.53125,0.0,0.0,0.46875,0.0,0.0,0.0,1.0,-3.0,-400.0,850.0,AS0YF9P 7KYKIRTR,AS0YF|S�ദ�����
+square,psk,raw_no_sync,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.4453125,0.0,0.0,0.5546875,0.0,0.0,1.0,0.0,0.0,0.0,450.0,5JEK1R0T4EXQP5_M,ʵ��έ��4AQP5_M
+square,psk,coarse_sync,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.109375,0.0,0.0,0.890625,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,3GITAZVYV2V1_ITU,3GITAZVYV2V1_m�
+square,psk,adaptive_drift,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.515625,0.0,0.0,0.484375,0.0,0.0,0.0,1.0,-3.0,-500.0,950.0,_M4ULZUS5 PUYRZX,_M4UlE���߯���X
+square,psk,raw_no_sync,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.421875,0.0,0.0,0.578125,0.0,0.0,1.0,0.0,0.0,0.0,450.0,H M-8L9B3N2SE05I,�߲�ǳ�b1N2SE05I
+square,psk,coarse_sync,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.1171875,0.0,0.0,0.8828125,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,TPQJ1YE2_4-Z8608,TPQJ1YE2_4-Z8���
+square,psk,adaptive_drift,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.1015625,0.0,0.0,0.8984375,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,CX8_FGPWKC ZV1GA,CX8_FGPWKC ZW7]�
+square,psk,raw_no_sync,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.4296875,0.0,0.0,0.5703125,0.0,0.0,1.0,0.0,0.0,0.0,450.0,GQO679- O2XZ3-6J,�������00XZ3-6J
+square,psk,coarse_sync,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.09375,0.0,0.0,0.90625,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,WB4GS0FHJWTV3N74,WB4GS0FHJWTV3o�k
+square,psk,adaptive_drift,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.1015625,0.0,0.0,0.8984375,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,W4G22UETCHBVGKP7,W4G22UETCHBVGK�
+triangle,psk,raw_no_sync,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,L9KV913OZLL1ZBM2,L9KV913OZLL1ZBM2
+triangle,psk,coarse_sync,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,-1YANNRE G8LXUM3,-1YANNRE G8LXUM3
+triangle,psk,adaptive_drift,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,HQ57U_YZ-HWW3LT-,HQ57U_YZ-HWW3LT-
+triangle,psk,raw_no_sync,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,FIUHPTHLXJ6Y0_I ,FIUHPTHLXJ6Y0_I 
+triangle,psk,coarse_sync,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,Y1L58L9K5SILU2DW,Y1L58L9K5SILU2DW
+triangle,psk,adaptive_drift,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,A5IMY96505025KF ,A5IMY96505025KF 
+triangle,psk,raw_no_sync,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,BOSCRO8SK3 596H ,BOSCRO8SK3 596H 
+triangle,psk,coarse_sync,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,HR8X8C28N1GPTC2Q,HR8X8C28N1GPTC2Q
+triangle,psk,adaptive_drift,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,WF2HPN-W1KINND W,WF2HPN-W1KINND W
+triangle,psk,raw_no_sync,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,8R_8KUSS R6GI0DR,8R_8KUSS R6GI0DR
+triangle,psk,coarse_sync,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,IIPJUPZ5J R0Y2EF,IIPJUPZ5J R0Y2EF
+triangle,psk,adaptive_drift,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,Z6RX35U-AF3WE8ZN,Z6RX35U-AF3WE8ZN
+triangle,psk,raw_no_sync,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,1N5RUSV9 I 5VDCG,1N5RQQ�߶�ʩ���
+triangle,psk,coarse_sync,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.5703125,0.0,0.0,0.4296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,3BHK23A1MITKRFXQ,3BHK26	���������
+triangle,psk,adaptive_drift,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.59375,0.0,0.0,0.40625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,FXKDZTO1FGAN4EI-,FXKDZRCι���˺��
+triangle,psk,raw_no_sync,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.6015625,0.0,0.0,0.3984375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,O72AAVH1I4EOYFGG,O72A@Oζ˺�����
+triangle,psk,coarse_sync,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,UXTIYIJE7 AK2WNJ,UXTIYI}��߾�ͨ��
+triangle,psk,adaptive_drift,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.609375,0.0,0.0,0.390625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,02NFGIH-YW1UIPRF,02NFGH�Ҧ�Ϊ����
+triangle,psk,raw_no_sync,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.59375,0.0,0.0,0.40625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,P9___SBTN7_6MZSD,P9___S���Ƞɲ���
+triangle,psk,coarse_sync,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,P5YHP5_E7AXUIY 0,P5YHP5U�Ⱦ������
+triangle,psk,adaptive_drift,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.6015625,0.0,0.0,0.3984375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,X8L4EB-EAQNCDZ6S,X8L4EC�������ɬ
+triangle,psk,raw_no_sync,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,601ZF88JRFTF6NJ8,601ZF8?�����ɱ��
+triangle,psk,coarse_sync,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.59375,0.0,0.0,0.40625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,UZ-ET1PDPF1H3_DT,UZ-ET1K���η̠��
+triangle,psk,adaptive_drift,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,LHAIAK5W77QKXIRH,LHAIAK���Ȯ�����
+triangle,psk,raw_no_sync,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,BV1R7EQ E536XD5 ,BV1R6G`O���ɧ���
+triangle,psk,coarse_sync,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.6015625,0.0,0.0,0.3984375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,KXKQG HO6ACAPC4X,KXKQG1�(ɾ����˧
+triangle,psk,adaptive_drift,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,YJLC90OUP0URE XH,YJLC91Z:�Ϫ��ߧ�
+triangle,psk,raw_no_sync,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,6DLO7CZE3STUF93A,6DLO7CE�L�����̾
+triangle,psk,coarse_sync,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,XMS TP3X-5M8PJA0,XMS TP6��ʲǯ���
+triangle,psk,adaptive_drift,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.59375,0.0,0.0,0.40625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,BO8WAVAYTGN7P05D,BO8WAW\����ȯ�ʻ
+triangle,psk,raw_no_sync,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,JRFCO70X3F-G6IZE,JRFCO77�̹Ҹɶ��
+triangle,psk,coarse_sync,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,- D1IPSQUZUU2ROE,- D1IPT�����ͭ��
+triangle,psk,adaptive_drift,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.5859375,0.0,0.0,0.4140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,MI-GJGK23U0H8WN2,MI-GJGX�̪ϷǨ��
+triangle,psk,raw_no_sync,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,T3QHFKT_CNUJFPWZ,T3QHFKQ���������
+triangle,psk,coarse_sync,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,6DTQLBZ299PG3GIH,6DTQLBP��Ư�̸��
+triangle,psk,adaptive_drift,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.578125,0.0,0.0,0.421875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,ADOIMZXF--QEBEM2,ADOIMZ[��Ү�����
+triangle,psk,raw_no_sync,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.6796875,0.0,0.0,0.3203125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,IFVHC3DK 1Z5BY1L,IFUw�̻��Υʽ�L
+triangle,psk,coarse_sync,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.6640625,0.0,0.0,0.3359375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,WNLRR2JCPS5094DF,WOH��͵�������EF
+triangle,psk,adaptive_drift,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.6640625,0.0,0.0,0.3359375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,RYI0M7P8BYW485W ,RYEO�ȯǽ���ǩW 
+triangle,psk,raw_no_sync,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,750.0,6UYRLBU_OBRD47W-,"6U]����������W-"
+triangle,psk,coarse_sync,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.65625,0.0,0.0,0.34375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,OKGPPR8DO YWLLP-,OKF��ǻ�ߦ��1P-
+triangle,psk,adaptive_drift,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.6796875,0.0,0.0,0.3203125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,UW-BW  J M58TL5C,UW���ߵ߲�ǫ�5C
+triangle,psk,raw_no_sync,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.6640625,0.0,0.0,0.3359375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,FDO_OB74AVMIVLUD,FDOఽ�˾�����UD
+triangle,psk,coarse_sync,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,750.0,BJ-JH7XEXZ-GVTUI,BJ-5�ȧ���Ҹ��UI
+triangle,psk,adaptive_drift,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.65625,0.0,0.0,0.34375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,K15UL9WO-LYTSILA,K15��ƨ�ҳ����LA
+triangle,psk,raw_no_sync,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.65625,0.0,0.0,0.34375,0.0,0.0,0.0,1.0,0.0,0.0,750.0, Z CL_UO G5JVEPW, Z!<����߸ʵ��PW
+triangle,psk,coarse_sync,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.65625,0.0,0.0,0.34375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,UKFV2AQNPEWQGADY,UKF);��������DY
+triangle,psk,adaptive_drift,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.6484375,0.0,0.0,0.3515625,0.0,0.0,0.0,1.0,0.0,0.0,750.0,20K05YW8YG4 OK2E,20K�ʦ�Ǧ��߰�2E
+triangle,psk,raw_no_sync,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.4140625,0.0,0.0,0.5859375,0.0,0.0,1.0,0.0,0.0,0.0,450.0,CSBUQGEVKYKE9FV_,�������nKYKE9FV_
+triangle,psk,coarse_sync,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.359375,0.0,0.0,0.640625,0.0,0.0,0.0,1.0,-4.0,0.0,450.0,4B1K_1KDGVNM098Q,4B1K_1KDG1����Ǯ
+triangle,psk,adaptive_drift,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.125,0.0,0.0,0.875,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,STPGDZ 95JDXA1FS,STPGDZ 95JDXA�<
+triangle,psk,raw_no_sync,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.3984375,0.0,0.0,0.6015625,0.0,0.0,1.0,0.0,0.0,0.0,450.0,_4MGBNKSF4HTZ45Q,�˲����SF4HTZ45Q
+triangle,psk,coarse_sync,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.1484375,0.0,0.0,0.8515625,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,F8YLXYXL2CQ23QOR,F8YLXYXL2CQ23��
+triangle,psk,adaptive_drift,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.1484375,0.0,0.0,0.8515625,0.0,0.0,0.0,1.0,-3.0,0.0,450.0, DJGFW80-O9DY708, DJGFW80-O9DX���
+triangle,psk,raw_no_sync,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.4140625,0.0,0.0,0.5859375,0.0,0.0,1.0,0.0,0.0,0.0,450.0,4 P4TFZC6 7 JH2L,�߯˫��C6 7 JH2L
+triangle,psk,coarse_sync,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.15625,0.0,0.0,0.84375,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,KNMIC1F1MJ_QUEFY,KNMIC1F1MJ_QU⩦
+triangle,psk,adaptive_drift,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.171875,0.0,0.0,0.828125,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,9Z9UR73A-70H0JJ ,9Z9UR73A-70H0%��
+triangle,psk,raw_no_sync,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.421875,0.0,0.0,0.578125,0.0,0.0,1.0,0.0,0.0,0.0,450.0,--GG GS8W0QY5 _4,�Ҹ�߸��W0QY5 _4
+triangle,psk,coarse_sync,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.1640625,0.0,0.0,0.8359375,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,CLRZJ_ZCZVPD4RXB,CLRZJ_ZCZVPD45��
+triangle,psk,adaptive_drift,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.15625,0.0,0.0,0.84375,0.0,0.0,0.0,1.0,-3.0,0.0,450.0,VTTR5GOIT2UR0_FM,VTTR5GOIT2UR0��
+chirp,fsk,raw_no_sync,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,2N057XD6KET6ZI7 ,2N057XD6KET6ZI7 
+chirp,fsk,coarse_sync,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,BLMMDPC3DXMRX36Z,BLMMDPC3DXMRX36Z
+chirp,fsk,adaptive_drift,baseline_awgn,0.0,0,-4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,HBPX5_2L4-9WWKQF,HBPX5_2L4-9WWKQF
+chirp,fsk,raw_no_sync,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,SBYDK NOONR06BA4,SBYDK NOONR06BA4
+chirp,fsk,coarse_sync,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,IL_AOQ_TR1YW3QN3,IL_AOQ_TR1YW3QN3
+chirp,fsk,adaptive_drift,baseline_awgn,0.0,0,0.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,T7Z-GA6X9__STG4E,T7Z-GA6X9__STG4E
+chirp,fsk,raw_no_sync,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,VRURQTMJ7PD_ZUIB,VRURQTMJ7PD_ZUIB
+chirp,fsk,coarse_sync,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,5SQ0ZYC- MVO84W6,5SQ0ZYC- MVO84W6
+chirp,fsk,adaptive_drift,baseline_awgn,0.0,0,4.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,TK9LSG4IQ9LVFOWO,TK9LSG4IQ9LVFOWO
+chirp,fsk,raw_no_sync,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,T0VXQ-S3H4D--E4M,T0VXQ-S3H4D--E4M
+chirp,fsk,coarse_sync,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,6HY7T0DJIMV0 3JU,6HY7T0DJIMV0 3JU
+chirp,fsk,adaptive_drift,baseline_awgn,0.0,0,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,LF5VLUDA2RNK K5F,LF5VLUDA2RNK K5F
+chirp,fsk,raw_no_sync,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.1328125,0.0,0.0,0.8671875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,I11Z14YAC8MXAU7M,I1 <Y�w�MXAQ7H
+chirp,fsk,coarse_sync,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.078125,0.0,0.0,0.921875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,BAPOWTIGY6-TKECT,BAPETYW{�mTKECD
+chirp,fsk,adaptive_drift,moderate_positive_drift,450.0,0,-4.0,1,16,128,16,0.1640625,0.0,0.0,0.8359375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,S37_7V1IV5WMKZBO,S377V3����]K�BB
+chirp,fsk,raw_no_sync,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.03125,0.0,0.0,0.96875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,OINB-6KHXCYQ8D_D,OINB)6KL\CYQ8D]D
+chirp,fsk,coarse_sync,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.03125,0.0,0.0,0.96875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,GBDH02YH9Q4JNAT0,GBD 2Yj9Q4JNAT0
+chirp,fsk,adaptive_drift,moderate_positive_drift,450.0,0,0.0,1,16,128,16,0.109375,0.0,0.0,0.890625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,G7R_I0G6HSHG5M_M,G7RQ0W?SHG5M_I
+chirp,fsk,raw_no_sync,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.0703125,0.0,0.0,0.9296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,Q7MW0SKC95N4VPAA,Q7LT SKOy�N4VPAA
+chirp,fsk,coarse_sync,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.0390625,0.0,0.0,0.9609375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,FH 5JF6EGQO3SQ3D,"FH 0
+F6G�QO3SQ3D"
+chirp,fsk,adaptive_drift,moderate_positive_drift,450.0,0,4.0,1,16,128,16,0.0703125,0.0,0.0,0.9296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,GLCSXU1HGCAIKVW2,GLCPHU1|CAIKVW2
+chirp,fsk,raw_no_sync,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.0390625,0.0,0.0,0.9609375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,RFXVLHZZ3RY40KHI,RFXVHZ[�RY40KHI
+chirp,fsk,coarse_sync,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.0234375,0.0,0.0,0.9765625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,DKG0-4 2LYWBI45H,DKG0-4 :|YWBI45H
+chirp,fsk,adaptive_drift,moderate_positive_drift,450.0,0,8.0,1,16,128,16,0.0234375,0.0,0.0,0.9765625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,02CEQUA7  OV77G1,02CEUA7d OV77G1
+chirp,fsk,raw_no_sync,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.1328125,0.0,0.0,0.8671875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,P4WYJ9DAK645KE5U,P4UX)�A�64uKd5Q
+chirp,fsk,coarse_sync,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.0859375,0.0,0.0,0.9140625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,PVRD6O9YZPF32 2F,PVR@&O=�z�V32 2B
+chirp,fsk,adaptive_drift,moderate_negative_drift,-450.0,0,-4.0,1,16,128,16,0.125,0.0,0.0,0.875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,52UH5BGZ0C99AF_T,52T!Jg��O99EF_D
+chirp,fsk,raw_no_sync,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.078125,0.0,0.0,0.921875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,69N3VXDO3V9_4X2H,69NXD_wV9_4X0@
+chirp,fsk,coarse_sync,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.109375,0.0,0.0,0.890625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,GOAVWS97XGCK5I0G,GOAPS9��KK5I0 
+chirp,fsk,adaptive_drift,moderate_negative_drift,-450.0,0,0.0,1,16,128,16,0.078125,0.0,0.0,0.921875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,QMMHZN3MVG0C-H23,QMEHBO7}VW0C-H2!
+chirp,fsk,raw_no_sync,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.0703125,0.0,0.0,0.9296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,-6I5A7D91-46L-LI,-6I17L�-46L-LI
+chirp,fsk,coarse_sync,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.078125,0.0,0.0,0.921875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,GY__U6Y0_PRZVS2I,GY_]6[?�PRZVS2I
+chirp,fsk,adaptive_drift,moderate_negative_drift,-450.0,0,4.0,1,16,128,16,0.0234375,0.0,0.0,0.9765625,0.0,0.0,0.0,1.0,0.0,0.0,450.0,I0_6T9U9NMNSWIL6,I0_69U;NMNSWIL4
+chirp,fsk,raw_no_sync,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.0625,0.0,0.0,0.9375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,8UHW94- 08S1A7GB,8UHU	4-5p8S1A7G@
+chirp,fsk,coarse_sync,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.0546875,0.0,0.0,0.9453125,0.0,0.0,0.0,1.0,0.0,0.0,450.0,YJDDMRKSQJDSN8CW,"YJD@RK�JDSN8CV"
+chirp,fsk,adaptive_drift,moderate_negative_drift,-450.0,0,8.0,1,16,128,16,0.0390625,0.0,0.0,0.9609375,0.0,0.0,0.0,1.0,0.0,0.0,450.0,2G9O9YP6SDYY0U9D,2G9E)YP?SDYY0U9D
+chirp,fsk,raw_no_sync,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.15625,0.0,0.0,0.84375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,AQM2OX-8_MMS2LEL,@ϳ_�-8S	MS2LUt
+chirp,fsk,coarse_sync,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.125,0.0,0.0,0.875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,L6HYC1R9QIK-QAV3,L Yy�R9Q	K-QAT
+chirp,fsk,adaptive_drift,severe_positive_drift,750.0,0,-4.0,1,16,128,16,0.1328125,0.0,0.0,0.8671875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,JCJU_DT5 9WEU7OL,Jj��DT5 WU7�
+chirp,fsk,raw_no_sync,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.078125,0.0,0.0,0.921875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,7E6K088ZFWONVVXS,7A6Orx8ZDONVVYZ
+chirp,fsk,coarse_sync,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.1328125,0.0,0.0,0.8671875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,N749AHW2PPCUYHYQ,JS�W2P CUYHY
+chirp,fsk,adaptive_drift,severe_positive_drift,750.0,0,0.0,1,16,128,16,0.078125,0.0,0.0,0.921875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,8SB7X6625CSMU6FG,8B�X662 CSMU6FV
+chirp,fsk,raw_no_sync,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.078125,0.0,0.0,0.921875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,K88AENN1GN81EJB3,K(8�eNN1DF81EJBw
+chirp,fsk,coarse_sync,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.0625,0.0,0.0,0.9375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,VCFEDLQ9E OQ0Y2Z,VCF]�LQ9@ OQ0Y2_
+chirp,fsk,adaptive_drift,severe_positive_drift,750.0,0,4.0,1,16,128,16,0.0234375,0.0,0.0,0.9765625,0.0,0.0,0.0,1.0,0.0,0.0,750.0,1UBYH8AE-CEW6GST,1UB[X8AE-CEW6GSU
+chirp,fsk,raw_no_sync,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.0546875,0.0,0.0,0.9453125,0.0,0.0,0.0,1.0,0.0,0.0,750.0,_FS2YZB4K8OIZ8SJ,_DS7�ZB4J8OIZ8SK
+chirp,fsk,coarse_sync,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.0390625,0.0,0.0,0.9609375,0.0,0.0,0.0,1.0,0.0,0.0,750.0,TXA99JHCA _Z89FT,T@A9yJHCA _Z89F�
+chirp,fsk,adaptive_drift,severe_positive_drift,750.0,0,8.0,1,16,128,16,0.0703125,0.0,0.0,0.9296875,0.0,0.0,0.0,1.0,0.0,0.0,750.0,NWN06JKLOQMHL D9,NSN7�JKLKMHL D;
+chirp,fsk,raw_no_sync,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.1015625,0.0,0.0,0.8984375,0.0,0.0,0.125,0.0,0.0,0.0,450.0,39ESEQGM-5VWIPGS,39ESEQGM���wIpGS
+chirp,fsk,coarse_sync,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.1328125,0.0,0.0,0.8671875,0.0,0.0,0.0,1.0,-1.0,0.0,450.0,EMU52VT-J  XU1KA,EMU53�wy  PU1kA
+chirp,fsk,adaptive_drift,combined_drift_timing,450.0,5,-4.0,1,16,128,16,0.125,0.0,0.0,0.875,0.0,0.0,0.0,1.0,-1.0,0.0,450.0,UPO1RXIV432WT59G,UPO1RJ.B�!2WT59G
+chirp,fsk,raw_no_sync,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.09375,0.0,0.0,0.90625,0.0,0.0,0.1875,0.0,0.0,0.0,450.0,L_FRI8MQEEB6B--Z,L_FRI8MSG]��@%-Z
+chirp,fsk,coarse_sync,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.0625,0.0,0.0,0.9375,0.0,0.0,0.0,1.0,0.0,450.0,0.0,-NC9Q884JXZO-SI3,%DCQ8(4HPZO-SI3
+chirp,fsk,adaptive_drift,combined_drift_timing,450.0,5,0.0,1,16,128,16,0.0703125,0.0,0.0,0.9296875,0.0,0.0,0.0,1.0,0.0,0.0,450.0,66FZX6APK6I2KL  ,66FZX6APOv�:KL  
+chirp,fsk,raw_no_sync,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.0859375,0.0,0.0,0.9140625,0.0,0.0,0.125,0.0,0.0,0.0,450.0,J4WCO5OEQXOCN7XY,J4WCO5OEQXxtF7XY
+chirp,fsk,coarse_sync,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.0703125,0.0,0.0,0.9296875,0.0,0.0,0.0,1.0,-1.0,0.0,450.0,43CCUG7RQ-8 LYYX,43CCUgv�-8 LYYX
+chirp,fsk,adaptive_drift,combined_drift_timing,450.0,5,4.0,1,16,128,16,0.125,0.0,0.0,0.875,0.0,0.0,0.0,1.0,0.0,100.0,350.0,-E7QYO7ZWW54_A6I,-E7QYO7ZWW55_��
+chirp,fsk,raw_no_sync,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.078125,0.0,0.0,0.921875,0.0,0.0,0.0625,0.0,0.0,0.0,450.0,2KOE6RNJLKX_HO0V,2KOE6RNJL[W�HO0V
+chirp,fsk,coarse_sync,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,450.0,0.0,H444N-K0BPCI -KI,H444N-K0BPCI -KI
+chirp,fsk,adaptive_drift,combined_drift_timing,450.0,5,8.0,1,16,128,16,0.0078125,0.0,0.0,0.9921875,1.0,0.0,0.0,1.0,0.0,200.0,250.0,6C JDKQL7Z_ BSFN,6 JDKQL7Z_ BSFN

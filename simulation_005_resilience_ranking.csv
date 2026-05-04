@@ -1,0 +1,6 @@
+rank,waveform,modulation,stress_profiles_tested,thresholds_reached,not_reached_count,median_threshold_snr_db,best_threshold_snr_db,total_usable_snr_points,average_ber_all_conditions,average_success_rate_all_conditions,average_preamble_match_rate_all_conditions,average_abs_frequency_error_ppm
+1,chirp,fsk,5,2,3,2.0,-4.0,5,0.06328125,0.25,1.0,405.0
+2,sine,psk,5,1,4,-4.0,-4.0,4,0.38359375,0.2,1.0,420.0
+3,triangle,psk,5,1,4,-4.0,-4.0,4,0.398828125,0.2,1.0,420.0
+4,square,psk,5,1,4,-4.0,-4.0,4,0.425,0.2,1.0,465.0
+5,chirp,psk,5,1,4,-4.0,-4.0,4,0.4484375,0.2,1.0,435.0

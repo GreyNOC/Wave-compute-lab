@@ -5,7 +5,6 @@
   "fsk_delta": 220.0,
   "duration_padding_bits": 0,
   "snr_db_values": [
-    -8.0,
     -4.0,
     0.0,
     4.0,
@@ -47,16 +46,12 @@
     {
       "waveform": "chirp",
       "modulation": "fsk"
-    },
-    {
-      "waveform": "pulse",
-      "modulation": "psk"
     }
   ],
   "stress_profiles": [
     {
       "name": "baseline_awgn",
-      "description": "AWGN only; verifies synchronization does not hurt a clean channel.",
+      "description": "AWGN only; verifies adaptive recovery does not hurt the clean channel.",
       "attenuation": 1.0,
       "frequency_drift_ppm": 0.0,
       "phase_jitter_std": 0.0,
@@ -66,19 +61,8 @@
       "timing_offset_samples": 0
     },
     {
-      "name": "timing_offset",
-      "description": "Receiver starts several samples late.",
-      "attenuation": 1.0,
-      "frequency_drift_ppm": 0.0,
-      "phase_jitter_std": 0.0,
-      "echo_delay_ms": 0.0,
-      "echo_gain": 0.0,
-      "narrowband_interference": 0.0,
-      "timing_offset_samples": 5
-    },
-    {
-      "name": "frequency_drift",
-      "description": "Oscillator drift creates sample-time mismatch.",
+      "name": "moderate_positive_drift",
+      "description": "Positive oscillator drift at +450 ppm.",
       "attenuation": 1.0,
       "frequency_drift_ppm": 450.0,
       "phase_jitter_std": 0.0,
@@ -88,18 +72,40 @@
       "timing_offset_samples": 0
     },
     {
-      "name": "combined_sync_stress",
-      "description": "Timing offset plus frequency drift and light phase jitter.",
+      "name": "moderate_negative_drift",
+      "description": "Negative oscillator drift at -450 ppm.",
+      "attenuation": 1.0,
+      "frequency_drift_ppm": -450.0,
+      "phase_jitter_std": 0.0,
+      "echo_delay_ms": 0.0,
+      "echo_gain": 0.0,
+      "narrowband_interference": 0.0,
+      "timing_offset_samples": 0
+    },
+    {
+      "name": "severe_positive_drift",
+      "description": "Severe positive oscillator drift at +750 ppm.",
+      "attenuation": 1.0,
+      "frequency_drift_ppm": 750.0,
+      "phase_jitter_std": 0.0,
+      "echo_delay_ms": 0.0,
+      "echo_gain": 0.0,
+      "narrowband_interference": 0.0,
+      "timing_offset_samples": 0
+    },
+    {
+      "name": "combined_drift_timing",
+      "description": "Frequency drift with timing offset and light phase jitter.",
       "attenuation": 1.0,
       "frequency_drift_ppm": 450.0,
-      "phase_jitter_std": 0.1,
+      "phase_jitter_std": 0.08,
       "echo_delay_ms": 0.0,
       "echo_gain": 0.0,
       "narrowband_interference": 0.0,
       "timing_offset_samples": 5
     }
   ],
-  "trials_per_snr": 2,
+  "trials_per_snr": 1,
   "random_payload_length": 16,
   "usable_ber_threshold": 0.01,
   "reliability_threshold": 0.8,
@@ -121,7 +127,7 @@
     0,
     1
   ],
-  "sync_search": {
+  "coarse_sync_search": {
     "timing_offsets": [
       -5,
       -4,
@@ -139,6 +145,40 @@
       -450.0,
       0.0,
       450.0
+    ]
+  },
+  "adaptive_drift_search": {
+    "timing_offsets": [
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frequency_correction_ppm": [
+      -800.0,
+      -700.0,
+      -600.0,
+      -500.0,
+      -400.0,
+      -300.0,
+      -200.0,
+      -100.0,
+      0.0,
+      100.0,
+      200.0,
+      300.0,
+      400.0,
+      500.0,
+      600.0,
+      700.0,
+      800.0
     ]
   }
 }
