@@ -5,7 +5,9 @@
   "fsk_delta": 220.0,
   "duration_padding_bits": 0,
   "snr_db_values": [
+    -8.0,
     -4.0,
+    0.0,
     4.0,
     8.0
   ],
@@ -25,87 +27,56 @@
     "fsk",
     "psk"
   ],
-  "candidates": [
+  "protocol_variants": [
     {
-      "waveform": "sine",
-      "modulation": "psk"
-    },
-    {
-      "waveform": "square",
-      "modulation": "psk"
-    },
-    {
+      "label": "chirp_psk_p8_pi4_c32",
       "waveform": "chirp",
-      "modulation": "psk"
-    }
-  ],
-  "overhead_variants": [
-    {
+      "modulation": "psk",
       "preamble_length_bits": 8,
       "pilot_length_bits": 4,
       "payload_chunk_bits": 32
     },
     {
-      "preamble_length_bits": 8,
-      "pilot_length_bits": 4,
-      "payload_chunk_bits": 64
-    },
-    {
-      "preamble_length_bits": 8,
-      "pilot_length_bits": 4,
-      "payload_chunk_bits": 128
-    },
-    {
-      "preamble_length_bits": 8,
-      "pilot_length_bits": 8,
-      "payload_chunk_bits": 32
-    },
-    {
-      "preamble_length_bits": 8,
-      "pilot_length_bits": 8,
-      "payload_chunk_bits": 64
-    },
-    {
-      "preamble_length_bits": 8,
-      "pilot_length_bits": 8,
-      "payload_chunk_bits": 128
-    },
-    {
+      "label": "chirp_psk_p16_pi4_c32",
+      "waveform": "chirp",
+      "modulation": "psk",
       "preamble_length_bits": 16,
       "pilot_length_bits": 4,
       "payload_chunk_bits": 32
     },
     {
-      "preamble_length_bits": 16,
-      "pilot_length_bits": 4,
-      "payload_chunk_bits": 64
-    },
-    {
-      "preamble_length_bits": 16,
-      "pilot_length_bits": 4,
-      "payload_chunk_bits": 128
-    },
-    {
-      "preamble_length_bits": 16,
+      "label": "sine_psk_p8_pi8_c32",
+      "waveform": "sine",
+      "modulation": "psk",
+      "preamble_length_bits": 8,
       "pilot_length_bits": 8,
       "payload_chunk_bits": 32
     },
     {
-      "preamble_length_bits": 16,
+      "label": "square_psk_p8_pi8_c32",
+      "waveform": "square",
+      "modulation": "psk",
+      "preamble_length_bits": 8,
       "pilot_length_bits": 8,
-      "payload_chunk_bits": 64
-    },
-    {
-      "preamble_length_bits": 16,
-      "pilot_length_bits": 8,
-      "payload_chunk_bits": 128
+      "payload_chunk_bits": 32
     }
   ],
   "stress_profiles": [
     {
       "name": "baseline_awgn",
-      "description": "AWGN only; verifies lower overhead does not hurt a clean channel.",
+      "description": "AWGN only baseline.",
       "attenuation": 1.0,
+      "frequency_drift_ppm": 0.0,
+      "phase_jitter_std": 0.0,
+      "echo_delay_ms": 0.0,
+      "echo_gain": 0.0,
+      "narrowband_interference": 0.0,
+      "timing_offset_samples": 0
+    },
+    {
+      "name": "attenuation",
+      "description": "Signal amplitude reduced before decoding.",
+      "attenuation": 0.55,
       "frequency_drift_ppm": 0.0,
       "phase_jitter_std": 0.0,
       "echo_delay_ms": 0.0,
@@ -156,10 +127,32 @@
       "echo_gain": 0.0,
       "narrowband_interference": 0.0,
       "timing_offset_samples": 5
+    },
+    {
+      "name": "multipath_echo",
+      "description": "Delayed lower-energy copy added to the signal.",
+      "attenuation": 1.0,
+      "frequency_drift_ppm": 0.0,
+      "phase_jitter_std": 0.0,
+      "echo_delay_ms": 1.5,
+      "echo_gain": 0.35,
+      "narrowband_interference": 0.0,
+      "timing_offset_samples": 0
+    },
+    {
+      "name": "narrowband_interference",
+      "description": "Nearby sinusoidal interferer injected.",
+      "attenuation": 1.0,
+      "frequency_drift_ppm": 0.0,
+      "phase_jitter_std": 0.0,
+      "echo_delay_ms": 0.0,
+      "echo_gain": 0.0,
+      "narrowband_interference": 0.35,
+      "timing_offset_samples": 0
     }
   ],
-  "trials_per_snr": 1,
-  "random_payload_length": 16,
+  "trials_per_snr": 8,
+  "random_payload_length": 32,
   "usable_ber_threshold": 0.01,
   "reliability_threshold": 0.8,
   "pilot_search": {
@@ -181,5 +174,6 @@
     ]
   },
   "max_allowed_average_ber": 0.01,
+  "max_allowed_ci95_upper_ber": 0.02,
   "max_allowed_not_reached_profiles": 0
 }

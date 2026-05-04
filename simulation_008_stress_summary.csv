@@ -1,0 +1,9 @@
+stress_profile,best_protocol_label,best_carrier,best_threshold_snr_db,best_average_ber,mean_ber_across_protocols,protocols_passing,protocols_tested
+attenuation,chirp_psk_p8_pi4_c32,chirp / PSK,-8.0,0.0,2.44140625e-05,4,4
+baseline_awgn,chirp_psk_p8_pi4_c32,chirp / PSK,-8.0,0.0,2.44140625e-05,4,4
+combined_drift_timing,chirp_psk_p16_pi4_c32,chirp / PSK,-4.0,0.00146484375,0.014111328125,3,4
+moderate_negative_drift,sine_psk_p8_pi8_c32,sine / PSK,-8.0,0.0001953125,0.0003662109375,4,4
+moderate_positive_drift,chirp_psk_p16_pi4_c32,chirp / PSK,-8.0,9.765625e-05,0.0004638671875,4,4
+multipath_echo,chirp_psk_p16_pi4_c32,chirp / PSK,-8.0,0.0,9.765625e-05,4,4
+narrowband_interference,chirp_psk_p16_pi4_c32,chirp / PSK,-8.0,0.0,7.324218750000001e-05,4,4
+severe_positive_drift,sine_psk_p8_pi8_c32,sine / PSK,-8.0,9.765625e-05,0.00031738281249999996,4,4

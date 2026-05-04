@@ -1,52 +1,54 @@
-# Simulation 007 Summary
+# Simulation 008 Summary
 
-Pilot-overhead optimization for GreyNOC wave carriers.
+Statistical validation of optimized GreyNOC pilot-tracking protocols.
 
-SNR sweep: `-4.0 dB` to `8.0 dB`
-Trials per SNR point: `1`
-Random payload length: `16` characters
-Overhead variants tested: `12`
+SNR sweep: `-8.0 dB` to `8.0 dB`
+Trials per SNR point: `8`
+Random payload length: `32` characters
+Protocol variants tested: `4`
+Stress profiles tested: `8`
 Usable BER threshold: `0.01`
-Optimization target average BER: `0.01`
+CI95 upper BER target: `0.02`
 
-## Best efficient configuration
+## Top validated protocol
 
+Protocol: `chirp_psk_p16_pi4_c32`
 Carrier: `chirp + PSK`
-Preamble: `8` bits
+Preamble: `16` bits
 Pilot: `4` bits
 Payload chunk: `32` bits
-Overhead ratio: `0.135`
-Average BER: `0.00000`
-Profiles passed: `5/5`
-Median threshold: `-4.0`
-Meets target: `True`
+Overhead ratio: `0.147`
+Average BER: `0.00027`
+Average CI95 upper BER: `0.00051`
+Profiles passed: `8/8`
+Median threshold: `-8.0`
+Meets validation target: `True`
 
-Configurations meeting target: `7`
+Protocols meeting target: `3`
 
-## Top 10 efficiency ranking
+## Validation ranking
 
-| Rank | Carrier | Preamble | Pilot | Chunk | Overhead | Avg BER | Profiles passed | Meets target |
-|---:|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | chirp / PSK | 8 | 4 | 32 | 0.135 | 0.00000 | 5/5 | True |
-| 2 | chirp / PSK | 16 | 4 | 32 | 0.179 | 0.00000 | 5/5 | True |
-| 3 | chirp / PSK | 8 | 8 | 32 | 0.200 | 0.00104 | 5/5 | True |
-| 4 | sine / PSK | 8 | 8 | 32 | 0.200 | 0.00156 | 5/5 | True |
-| 5 | square / PSK | 8 | 8 | 32 | 0.200 | 0.00521 | 5/5 | True |
-| 6 | chirp / PSK | 16 | 8 | 32 | 0.238 | 0.00000 | 5/5 | True |
-| 7 | sine / PSK | 16 | 8 | 32 | 0.238 | 0.00313 | 5/5 | True |
-| 8 | square / PSK | 8 | 4 | 32 | 0.135 | 0.01875 | 5/5 | False |
-| 9 | sine / PSK | 16 | 4 | 32 | 0.179 | 0.01719 | 5/5 | False |
-| 10 | square / PSK | 8 | 4 | 64 | 0.086 | 0.12865 | 4/5 | False |
+| Rank | Protocol | Carrier | Overhead | Avg BER | CI95 upper BER | Profiles passed | Meets target |
+|---:|---|---|---:|---:|---:|---:|---|
+| 1 | chirp_psk_p16_pi4_c32 | chirp / PSK | 0.147 | 0.00027 | 0.00051 | 8/8 | True |
+| 2 | chirp_psk_p8_pi4_c32 | chirp / PSK | 0.123 | 0.00052 | 0.00106 | 8/8 | True |
+| 3 | sine_psk_p8_pi8_c32 | sine / PSK | 0.200 | 0.00165 | 0.00229 | 8/8 | True |
+| 4 | square_psk_p8_pi8_c32 | square / PSK | 0.200 | 0.00530 | 0.00637 | 7/8 | False |
 
-## Best configuration by carrier
+## Best protocol by stress profile
 
-| Carrier | Preamble | Pilot | Chunk | Overhead | Avg BER | Profiles passed |
-|---|---:|---:|---:|---:|---:|---:|
-| chirp / PSK | 8 | 4 | 32 | 0.135 | 0.00000 | 5/5 |
-| sine / PSK | 8 | 8 | 32 | 0.200 | 0.00156 | 5/5 |
-| square / PSK | 8 | 8 | 32 | 0.200 | 0.00521 | 5/5 |
+| Stress profile | Best protocol | Best carrier | Threshold | Avg BER | Protocols passing |
+|---|---|---|---:|---:|---:|
+| attenuation | chirp_psk_p8_pi4_c32 | chirp / PSK | -8.0 | 0.00000 | 4/4 |
+| baseline_awgn | chirp_psk_p8_pi4_c32 | chirp / PSK | -8.0 | 0.00000 | 4/4 |
+| combined_drift_timing | chirp_psk_p16_pi4_c32 | chirp / PSK | -4.0 | 0.00146 | 3/4 |
+| moderate_negative_drift | sine_psk_p8_pi8_c32 | sine / PSK | -8.0 | 0.00020 | 4/4 |
+| moderate_positive_drift | chirp_psk_p16_pi4_c32 | chirp / PSK | -8.0 | 0.00010 | 4/4 |
+| multipath_echo | chirp_psk_p16_pi4_c32 | chirp / PSK | -8.0 | 0.00000 | 4/4 |
+| narrowband_interference | chirp_psk_p16_pi4_c32 | chirp / PSK | -8.0 | 0.00000 | 4/4 |
+| severe_positive_drift | sine_psk_p8_pi8_c32 | sine / PSK | -8.0 | 0.00010 | 4/4 |
 
 ## Interpretation
 
-Simulation 007 asks how much synchronization overhead can be removed while preserving the Simulation 006 pilot-tracking breakthrough.
-The ranking favors configurations that pass all stress profiles, keep BER low, and use the lowest overhead ratio.
+Simulation 008 freezes the best Simulation 007 protocols and reruns them with more trials, longer random payloads, and broader stress coverage.
+The validation target requires low average BER, low CI95 upper BER, and no failed stress profiles.
