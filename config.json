@@ -29,6 +29,10 @@
   "candidates": [
     {
       "waveform": "chirp",
+      "modulation": "fsk"
+    },
+    {
+      "waveform": "chirp",
       "modulation": "psk"
     },
     {
@@ -42,16 +46,12 @@
     {
       "waveform": "triangle",
       "modulation": "psk"
-    },
-    {
-      "waveform": "chirp",
-      "modulation": "fsk"
     }
   ],
   "stress_profiles": [
     {
       "name": "baseline_awgn",
-      "description": "AWGN only; verifies adaptive recovery does not hurt the clean channel.",
+      "description": "AWGN only; verifies pilots do not hurt a clean channel.",
       "attenuation": 1.0,
       "frequency_drift_ppm": 0.0,
       "phase_jitter_std": 0.0,
@@ -105,7 +105,7 @@
       "timing_offset_samples": 5
     }
   ],
-  "trials_per_snr": 1,
+  "trials_per_snr": 2,
   "random_payload_length": 16,
   "usable_ber_threshold": 0.01,
   "reliability_threshold": 0.8,
@@ -127,27 +127,18 @@
     0,
     1
   ],
-  "coarse_sync_search": {
-    "timing_offsets": [
-      -5,
-      -4,
-      -3,
-      -2,
-      -1,
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "frequency_correction_ppm": [
-      -450.0,
-      0.0,
-      450.0
-    ]
-  },
-  "adaptive_drift_search": {
+  "pilot_bits": [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+  ],
+  "payload_chunk_bits": 32,
+  "pilot_search": {
     "timing_offsets": [
       -5,
       -4,
