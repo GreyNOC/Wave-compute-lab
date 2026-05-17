@@ -1,0 +1,8 @@
+[project]
+name = "wave-compute-lab"
+version = "0.1.0"
+description = "Simulation primitives for GreyNOC wave-based computing experiments."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
