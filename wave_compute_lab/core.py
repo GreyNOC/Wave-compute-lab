@@ -155,11 +155,46 @@ def interference_gate(
     near 0.0.  Optional reproducible noise can be added before measurement.
     """
 
-    wave_a = generate_sine(frequency_hz, sample_rate=sample_rate, duration_s=duration_s)
-    wave_b = generate_sine(
-        frequency_hz,
+    return interference_gate_custom(
+        phase_difference_radians=phase_difference_radians,
+        frequency_a_hz=frequency_hz,
+        frequency_b_hz=frequency_hz,
+        amplitude_a=1.0,
+        amplitude_b=1.0,
         sample_rate=sample_rate,
         duration_s=duration_s,
+        high_threshold=high_threshold,
+        noise_amplitude=noise_amplitude,
+        seed=seed,
+    )
+
+
+def interference_gate_custom(
+    *,
+    phase_difference_radians: float,
+    frequency_a_hz: float = 10.0,
+    frequency_b_hz: float = 10.0,
+    amplitude_a: float = 1.0,
+    amplitude_b: float = 1.0,
+    sample_rate: int = 2_000,
+    duration_s: float = 1.0,
+    high_threshold: float = 1.25,
+    noise_amplitude: float = 0.0,
+    seed: int | None = None,
+) -> dict[str, float | str]:
+    """Interference gate with separate frequency and amplitude controls."""
+
+    wave_a = generate_sine(
+        frequency_a_hz,
+        sample_rate=sample_rate,
+        duration_s=duration_s,
+        amplitude=amplitude_a,
+    )
+    wave_b = generate_sine(
+        frequency_b_hz,
+        sample_rate=sample_rate,
+        duration_s=duration_s,
+        amplitude=amplitude_b,
         phase_radians=phase_difference_radians,
     )
     if noise_amplitude:
