@@ -2,10 +2,12 @@ import math
 import unittest
 
 from wave_compute_lab import (
+    add_uniform_noise,
     decode_frequency,
     encode_bit,
     generate_sine,
     interference_gate,
+    peak_amplitude,
     resonance_detector,
 )
 
@@ -22,6 +24,31 @@ class InterferenceGateTests(unittest.TestCase):
         self.assertEqual(result["decision"], "LOW")
         self.assertLess(result["strength"], 0.01)
         self.assertLess(result["correlation"], -0.99)
+
+    def test_light_noise_preserves_in_phase_high_output(self):
+        result = interference_gate(phase_difference_radians=0.0, noise_amplitude=0.05, seed=7)
+        self.assertEqual(result["decision"], "HIGH")
+        self.assertGreater(result["strength"], 1.85)
+
+    def test_light_noise_preserves_opposite_phase_low_output(self):
+        result = interference_gate(phase_difference_radians=math.pi, noise_amplitude=0.05, seed=7)
+        self.assertEqual(result["decision"], "LOW")
+        self.assertLess(result["strength"], 0.2)
+
+    def test_phase_sweep_crosses_decision_boundary(self):
+        high = interference_gate(phase_difference_radians=math.radians(90))
+        low = interference_gate(phase_difference_radians=math.radians(120))
+        self.assertEqual(high["decision"], "HIGH")
+        self.assertEqual(low["decision"], "LOW")
+
+
+class NoisePrimitiveTests(unittest.TestCase):
+    def test_noise_is_reproducible_with_seed(self):
+        signal = generate_sine(10, sample_rate=2000, duration_s=1.0)
+        first = add_uniform_noise(signal, noise_amplitude=0.05, seed=123)
+        second = add_uniform_noise(signal, noise_amplitude=0.05, seed=123)
+        self.assertEqual(first.samples, second.samples)
+        self.assertGreater(peak_amplitude(first), 1.0)
 
 
 class FrequencyEncodingTests(unittest.TestCase):
