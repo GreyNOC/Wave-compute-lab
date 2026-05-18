@@ -1,5 +1,7 @@
 import math
+import tempfile
 import unittest
+from pathlib import Path
 
 from wave_compute_lab import (
     add_uniform_noise,
@@ -7,8 +9,10 @@ from wave_compute_lab import (
     encode_bit,
     generate_sine,
     interference_gate,
+    interference_gate_custom,
     peak_amplitude,
     resonance_detector,
+    write_csv,
 )
 
 
@@ -41,6 +45,18 @@ class InterferenceGateTests(unittest.TestCase):
         self.assertEqual(high["decision"], "HIGH")
         self.assertEqual(low["decision"], "LOW")
 
+    def test_amplitude_mismatch_weakens_destructive_cancellation(self):
+        matched = interference_gate_custom(phase_difference_radians=math.pi, amplitude_a=1.0, amplitude_b=1.0)
+        mismatched = interference_gate_custom(phase_difference_radians=math.pi, amplitude_a=1.0, amplitude_b=0.25)
+        self.assertLess(matched["strength"], 0.01)
+        self.assertGreater(mismatched["strength"], 0.70)
+
+    def test_frequency_mismatch_changes_correlation(self):
+        matched = interference_gate_custom(phase_difference_radians=0.0, frequency_a_hz=10.0, frequency_b_hz=10.0)
+        mismatched = interference_gate_custom(phase_difference_radians=0.0, frequency_a_hz=10.0, frequency_b_hz=10.5)
+        self.assertGreater(matched["correlation"], 0.99)
+        self.assertLess(mismatched["correlation"], 0.1)
+
 
 class NoisePrimitiveTests(unittest.TestCase):
     def test_noise_is_reproducible_with_seed(self):
@@ -49,6 +65,15 @@ class NoisePrimitiveTests(unittest.TestCase):
         second = add_uniform_noise(signal, noise_amplitude=0.05, seed=123)
         self.assertEqual(first.samples, second.samples)
         self.assertGreater(peak_amplitude(first), 1.0)
+
+
+class ExperimentIOTests(unittest.TestCase):
+    def test_write_csv_creates_parent_directories(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            output = Path(tmpdir) / "nested" / "result.csv"
+            write_csv(output, [{"phase": 90, "decision": "HIGH"}])
+            self.assertTrue(output.exists())
+            self.assertIn("phase,decision", output.read_text(encoding="utf-8"))
 
 
 class FrequencyEncodingTests(unittest.TestCase):
