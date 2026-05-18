@@ -14,6 +14,7 @@ from .core import (
     peak_amplitude,
     resonance_detector,
 )
+from .experiment_io import print_csv, write_csv
 
 __all__ = [
     "WaveSignal",
@@ -27,5 +28,7 @@ __all__ = [
     "interference_gate",
     "interference_gate_from_signals",
     "peak_amplitude",
+    "print_csv",
     "resonance_detector",
+    "write_csv",
 ]
