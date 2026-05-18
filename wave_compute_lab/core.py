@@ -93,6 +93,34 @@ def combine_waves(*waves: WaveSignal) -> WaveSignal:
     return WaveSignal(samples=combined, sample_rate=sample_rate)
 
 
+def concatenate_signals(*signals: WaveSignal) -> WaveSignal:
+    """Concatenate sampled signals that share the same sample rate."""
+
+    if not signals:
+        raise ValueError("at least one signal is required")
+    sample_rate = signals[0].sample_rate
+    for signal in signals:
+        if signal.sample_rate != sample_rate:
+            raise ValueError("all signals must use the same sample_rate")
+    samples: list[float] = []
+    for signal in signals:
+        samples.extend(signal.samples)
+    return WaveSignal(samples=tuple(samples), sample_rate=sample_rate)
+
+
+def slice_signal(signal: WaveSignal, *, start_index: int, sample_count: int) -> WaveSignal:
+    """Return a sample-indexed slice from a signal."""
+
+    if start_index < 0:
+        raise ValueError("start_index must be non-negative")
+    if sample_count <= 0:
+        raise ValueError("sample_count must be positive")
+    end_index = start_index + sample_count
+    if end_index > len(signal.samples):
+        raise ValueError("slice exceeds signal length")
+    return WaveSignal(samples=signal.samples[start_index:end_index], sample_rate=signal.sample_rate)
+
+
 def peak_amplitude(signal: WaveSignal) -> float:
     """Return the largest absolute sample value."""
 
@@ -211,6 +239,40 @@ def encode_bit(bit: int, *, zero_hz: float = 100.0, one_hz: float = 200.0, **kwa
     return generate_sine(one_hz if bit else zero_hz, **kwargs)
 
 
+def encode_bit_message(
+    bits: str,
+    *,
+    zero_hz: float = 100.0,
+    one_hz: float = 200.0,
+    sample_rate: int = 8_000,
+    bit_duration_s: float = 0.05,
+    amplitude: float = 1.0,
+    noise_amplitude: float = 0.0,
+    seed: int | None = None,
+) -> WaveSignal:
+    """Encode a string of 0/1 characters as a concatenated frequency message."""
+
+    if not bits:
+        raise ValueError("bits must not be empty")
+    if any(bit not in "01" for bit in bits):
+        raise ValueError("bits must contain only 0 and 1")
+    chunks = [
+        encode_bit(
+            int(bit),
+            zero_hz=zero_hz,
+            one_hz=one_hz,
+            sample_rate=sample_rate,
+            duration_s=bit_duration_s,
+            amplitude=amplitude,
+        )
+        for bit in bits
+    ]
+    message = concatenate_signals(*chunks)
+    if noise_amplitude:
+        message = add_uniform_noise(message, noise_amplitude=noise_amplitude, seed=seed)
+    return message
+
+
 def _frequency_energy(signal: WaveSignal, candidate_hz: float) -> float:
     """Measure how strongly a sampled signal matches a candidate frequency."""
 
@@ -231,6 +293,32 @@ def decode_frequency(signal: WaveSignal, candidate_frequencies_hz: Sequence[floa
     energy = {frequency: _frequency_energy(signal, frequency) for frequency in candidate_frequencies_hz}
     best = max(energy, key=energy.get)
     return best, energy
+
+
+def decode_bit_message(
+    signal: WaveSignal,
+    *,
+    bit_count: int,
+    zero_hz: float = 100.0,
+    one_hz: float = 200.0,
+    bit_duration_s: float = 0.05,
+) -> str:
+    """Decode a concatenated frequency message back into a bit string."""
+
+    if bit_count <= 0:
+        raise ValueError("bit_count must be positive")
+    samples_per_bit = int(signal.sample_rate * bit_duration_s)
+    if samples_per_bit <= 0:
+        raise ValueError("bit_duration_s produces zero samples")
+    if samples_per_bit * bit_count > len(signal.samples):
+        raise ValueError("signal is shorter than the requested bit_count")
+
+    decoded_bits: list[str] = []
+    for bit_index in range(bit_count):
+        chunk = slice_signal(signal, start_index=bit_index * samples_per_bit, sample_count=samples_per_bit)
+        decoded_frequency, _ = decode_frequency(chunk, [zero_hz, one_hz])
+        decoded_bits.append("1" if decoded_frequency == one_hz else "0")
+    return "".join(decoded_bits)
 
 
 def resonance_detector(
