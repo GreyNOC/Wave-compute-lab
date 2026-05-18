@@ -5,8 +5,10 @@ from pathlib import Path
 
 from wave_compute_lab import (
     add_uniform_noise,
+    decode_bit_message,
     decode_frequency,
     encode_bit,
+    encode_bit_message,
     generate_sine,
     interference_gate,
     interference_gate_custom,
@@ -88,6 +90,26 @@ class FrequencyEncodingTests(unittest.TestCase):
         decoded, energy = decode_frequency(signal, [100, 200])
         self.assertEqual(decoded, 200)
         self.assertGreater(energy[200], 10 * energy[100])
+
+    def test_bit_message_round_trips_cleanly(self):
+        bits = "1011001"
+        signal = encode_bit_message(bits, zero_hz=100, one_hz=200, sample_rate=4000, bit_duration_s=0.05)
+        decoded = decode_bit_message(signal, bit_count=len(bits), zero_hz=100, one_hz=200, bit_duration_s=0.05)
+        self.assertEqual(decoded, bits)
+
+    def test_bit_message_round_trips_with_light_noise(self):
+        bits = "11001010"
+        signal = encode_bit_message(
+            bits,
+            zero_hz=100,
+            one_hz=200,
+            sample_rate=4000,
+            bit_duration_s=0.05,
+            noise_amplitude=0.05,
+            seed=9,
+        )
+        decoded = decode_bit_message(signal, bit_count=len(bits), zero_hz=100, one_hz=200, bit_duration_s=0.05)
+        self.assertEqual(decoded, bits)
 
 
 class ResonanceDetectorTests(unittest.TestCase):
